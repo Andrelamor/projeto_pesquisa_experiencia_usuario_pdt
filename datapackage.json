@@ -1,0 +1,109 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "declaracao-participacao",
+      "path": "anotacoes_roteiro_teste_entrevista/declaracao-participacao.pptx",
+      "profile": "",
+    },
+    {
+      "name": "entrevista-teste-usabilidade",
+      "path": "anotacoes_roteiro_teste_entrevista/entrevista-teste-usabilidade.docx",
+      "profile": "",
+    },
+    {
+      "name": "registros-entrevistas",
+      "path": "anotacoes_roteiro_teste_entrevista/registros-entrevistas.xlsx",
+      "profile": "",
+    },
+    {
+      "name": "registros-testes",
+      "path": "anotacoes_roteiro_teste_entrevista/registros-testes.xlsx",
+      "profile": "",
+    },
+    {
+      "name": "roteiro-entrevistas",
+      "path": "anotacoes_roteiro_teste_entrevista/roteiro-entrevistas.docx",
+      "profile": "",
+    },
+    {
+      "name": "roteiro-testes",
+      "path": "anotacoes_roteiro_teste_entrevista/roteiro-testes.docx",
+      "profile": "",
+    },
+    {
+      "name": "consolidado_sugestoes_melhoria_pdt",
+      "path": "consolidado/consolidado_sugestoes_melhoria_pdt.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema-consolidado.json",
+    },
+    {
+      "name": "formulario_portal_transparencia",
+      "path":"formulario_pesquisa_usuarios/formulario_portal_transparencia.xlsx",
+      "profile": "",
+    },
+    {
+      "name": "link-formulario",
+      "path":"formulario_pesquisa_usuarios/link-formulario.txt",
+      "profile": "",
+    },
+    {
+      "name": "painel_formulario",
+      "path":"formulario_pesquisa_usuarios/painel_formulario.html",
+      "profile": "",
+    },
+    {
+      "name": "painel_formulario",
+      "path":"formulario_pesquisa_usuarios/painel_formulario.rmd",
+      "profile": "",
+    },
+    {
+      "name": "plano-trabalho-matriz-responsabilidades",
+      "path":"plano_trabalho/plano-trabalho-matriz-responsabilidades.xlsx",
+      "profile": "",
+    },
+    {
+      "name": "planejamento-teste-usabilidade",
+      "path":"plano_trabalho/planejamento-teste-usabilidade.xlsx",
+      "profile": "",
+    },
+    {
+      "name": "prototipo-telas-observacoes",
+      "path":"relatorio_final/prototipo-telas-observacoes.pdf",
+      "profile": "",
+    },
+    {
+      "name": "consolidado-20210819",
+      "path":"relatorio_final/consolidado-20210819.pptx",
+      "profile": "",
+    },
+    {
+      "name": "analise-formulario-entrevista-20210504",
+      "path":"relatorio_final/analise-formulario-entrevista-20210504.pptx",
+      "profile": "",
+    },
+    {
+      "name": "diagnostico-boas-praticas-20210317",
+      "path":"relatorio_final/diagnostico-boas-praticas-20210317.pptx",
+      "profile": "",
+    },
+    {
+      "name": "diagnostico-boas-praticas-consolidado-202100526",
+      "path":"relatorio_final/diagnostico-boas-praticas-consolidado-202100526.pptx",
+      "profile": "",
+    },
+    {
+      "name": "relatorio-final-20210721",
+      "path":"relatorio_final/relatorio-final-20210721.pptx",
+      "profile": "",
+    },
+    {
+      "name": "apresentacao_pdt_livro_ux",
+      "path":"/apresentacao_pdt_livro_ux",
+      "profile": "",
+    }
+  ],
+  "name": "projeto_pesquisa_experiencia_usuario_pdt",
+  "title": "projeto Pesquisa de Experiência do Usuário no Portal da Transparência",
+  "description": "Documentos relacionados ao projeto Pesquisa de Experiência do Usuário no Portal da Transparência"
+}

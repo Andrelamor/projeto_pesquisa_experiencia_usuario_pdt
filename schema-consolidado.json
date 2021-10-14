@@ -1,0 +1,129 @@
+"fields": [
+          {
+            "name": "id",
+            "type": "integer",
+            "format": "default",
+            "title": "ID",
+            "description": "Número sequencial das informações de cada linha",
+            "constraints": {
+            "required": true,
+              "minimum": 1,
+              "maximum": 285
+            }
+          },
+          {
+            "name": "autoria",
+            "type": "string",
+            "format": "default",
+            "title": "Autoria",
+            "description": "Origem da coleta das informações (a partir de qual setor ou evento). Exemplo: LAB.MG, Entrevista, Formulário, Teste",
+          "constraints": {
+            "required": true
+            }
+          },
+          {
+            "name": "origem",
+            "type": "string",
+            "format": "default",
+            "title": "Origem",
+            "description": "Fonte das informações. Exemplo: Análise Exploratória, Fale Conosco, Formulário, Teste de Usabilidade, etc"
+          },
+          {
+            "name": "consulta_portal",
+            "type": "string",
+            "format": "default",
+            "title": "Consulta Portal de Transparência",
+            "description": "Consulta do Portal da Transparência a que se refere a informação",
+          "constraints": {
+            "required": true
+            }
+          },
+          {
+            "name": "categoria",
+            "title": "Categoria",
+            "type": "string",
+            "format": "default",
+            "description": "Tipo e Sugestão. Exemplo: Acessibilidade, Conceito, Layout, Inclusão de Informações." 
+          },
+          {
+            "name": "pontos_atencao",
+            "title": "Pontos de Atenção",
+            "type": "string",
+            "format": "default",
+            "description": "Apontamentos que expressam críticas ou dificuldades na experiência do usuário"
+          },
+          {
+            "name": "sugestoes_boas_praticas",
+            "title": "Sugestões e Boas Práticas",
+            "type": "string",
+            "format": "default",
+            "description": "Sugestões para melhoria da experiência do usuário na consulta referente."
+          },
+          {
+            "name": "observacoes",
+            "title": "Observações",
+            "type": "string",
+            "format": "default",
+            "description": "Informações e detalhamentos complementares para especificar melhor as duas colunas anteriores."            
+          },
+          {
+            "name": "impacto_usuario",
+            "type": "string",
+            "format": "default",
+            "title": "Impacto no Usuário",
+            "description": "Valoração do nível do Impacto no usuário: baixo; médio ou alto",      
+            "constraints": {
+              "enum": [
+              "baixo",
+              "médio",
+              "alto",
+              "não se aplica"
+              ]
+            }
+          },
+          {
+            "name": "viabilidade",
+            "type": "string",
+            "format": "default",
+            "title": "Viabilidade",
+            "description": "Avaliação sobre a viabilidade da sugestão (sim/não)",      
+            "constraints": {
+              "enum": [
+              "sim",
+              "não",
+              "não se aplica",
+              "verificar"
+              ]
+            }
+          },
+          {
+            "name": "esforco",
+            "type": "string",
+            "format": "default",
+            "title": "Esforço",
+            "description": "Avaliação sobre o nível de esforço para implementar a sugestão: baixo; médio ou alto ",      
+            "constraints": {
+              "enum": [
+              "baixo",
+              "médio",
+              "alto",
+              "não se aplica"
+              ]
+            }
+          },
+          {
+            "name": "prioridade",
+            "type": "string",
+            "format": "default",
+            "title": "Prioridade",
+            "description": "Avaliação sobre a prioridade de implementação da sugestão: baixa ou alta",      
+            "constraints": {
+              "enum": [
+              "baixa",
+              "alta",
+              "não se aplica"
+              ]
+            }
+          },
+        ]
+      }
