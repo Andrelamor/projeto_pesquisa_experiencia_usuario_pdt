@@ -1,0 +1,980 @@
+---
+title: "Pesquisa sobre o Portal da Transparência - MG"
+author: "CGE/MG + LAB.mg"
+date: "21/03/2021"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: scroll
+    theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r pacotes, include=FALSE}
+library(data.table)
+library(dplyr)
+library(ggplot2)
+library(magrittr)
+library(ggrepel)
+library(readxl)
+library(likert)
+library(kableExtra)
+library(ggthemes)
+library(flexdashboard)
+library(janitor)
+library(formattable)
+library(ggfittext)
+library(tidyr)
+library(stringr)
+library(treemap)
+```
+
+```{r leitura e ajuste da base, message=FALSE, include=FALSE}
+base<- read_excel("D:\\OneDrive\\Documentos\\painel_cge\\formulario_portal_transparencia.xlsx",
+                  sheet = 1, #número ou nome da aba da planilha a ser lida
+                  na = "NA", #como aparecem os campos vazios
+                  )
+
+#renomeando as colunas
+names(base)<- c("data_hora",
+                "idade",
+                "genero",
+                "ocupacao",
+                "nivel_experiencia",
+                "frequencia_uso",
+                "objetivo_uso",
+                "paginas_mais_acessadas",
+                "likert1_facilidade",
+                "likert2_linguagem",
+                "likert3_estetica",
+                "likert4_recursos",
+                "sugestao_informacoes",
+                "sugestao_melhorias",
+                "email")
+
+#mudar o tipo das colunas
+base<- base %>% 
+  mutate_at(vars(starts_with("likert")),funs(as.factor))
+
+#faixas de idade
+base<- base %>% 
+  mutate("faixa_idade" = case_when(
+    idade %in% c(0:17)~ "0 a 17 anos",
+     idade %in% c(18:24)~ "18 a 24 anos",
+     idade %in% c(25:39)~ "25 a 39 anos",
+     idade %in% c(40:59)~ "40 a 59 anos",
+     idade >= 60 ~ "60 anos ou mais"))
+#base com os nomes originais
+base_nomes_originais<- read_excel("K:\\Meu Drive\\formulario_portal_transparencia.xlsx",
+                  sheet = 1, #número ou nome da aba da planilha a ser lida
+                  na = "NA" #como aparecem os campos vazios
+                  ) %>% 
+  slice_head(n = 5)
+```
+
+Visão Geral {data-navmenu="Visão Geral"}
+=====================================
+
+
+Column
+-----------------------------------------------------------------------
+
+### Participantes da pesquisa via formulário
+
+
+```{r box participantes, message=FALSE, warning= FALSE, echo=FALSE}
+participantes <- base %>% summarise(n()) %>%  as.integer()
+valueBox(participantes, icon = "ion-android-contacts")
+```
+
+Column
+-----------------------------------------------------------------------
+
+### Servidores públicos de Minas Gerais 
+
+```{r box servidores, message=FALSE, warning= FALSE, echo=FALSE}
+library(flexdashboard)
+servidores <- base %>% 
+  filter(ocupacao == "Servidor (a) público Estadual de Minas Gerais" ) %>% 
+  summarise(n()) %>%  as.integer()
+valueBox(servidores, icon = "ion-android-favorite")
+```
+
+Column
+-----------------------------------------------------------------------
+
+### Usuários experientes e muito experientes
+
+```{r box experientes, message=FALSE, warning= FALSE, echo=FALSE}
+library(flexdashboard)
+experientes <- base %>% 
+  filter(nivel_experiencia %in% c("Experiente", "Muito experiente")) %>% 
+  summarise(n()) %>%  as.integer()
+valueBox(experientes, icon = "ion-android-hand")
+```
+
+Column
+-----------------------------------------------------------------------
+
+### Sugestões de melhoria deixadas pelos usuários
+
+```{r box sugestoes, message=FALSE, warning= FALSE, echo=FALSE}
+library(flexdashboard)
+
+sugestoes<- as.data.frame(str_length(base$sugestao_melhorias)) %>%
+  rename("validacao_sugestoes"= `str_length(base$sugestao_melhorias)`)
+
+sugestoes<- bind_cols(base,sugestoes) %>% 
+  filter(validacao_sugestoes >= 15) %>% 
+  summarise(n()) %>%  as.integer()
+valueBox(sugestoes, icon = "ion-android-bulb")
+
+```
+
+Column
+-----------------------------------------------------------------------
+### Contatos de usuários para pesquisas futuras 
+
+```{r box contatos, message=FALSE, warning= FALSE, echo=FALSE, fig.height= 4}
+library(flexdashboard)
+contatos <- base %>%
+  mutate("validacao_email" = str_count(base$email, "@")) %>% 
+  filter(validacao_email == 1)%>%
+  summarise(n()) %>%  as.integer()
+valueBox(contatos, icon = "ion-at")
+
+```
+
+Características Demográficas {data-navmenu="Participantes"}
+=====================================
+
+### Gênero - Tabela
+
+```{r genero tabela, message=FALSE, warning= FALSE, echo=FALSE}
+# data
+base %>% 
+  group_by(genero) %>% 
+  summarise("n_pessoas"= n()) %>%
+  mutate("total" = sum(n_pessoas))%>%
+  mutate("percentual" = ((n_pessoas/total)*100)) %>% 
+  arrange(desc(n_pessoas)) %>% 
+  adorn_totals("row") %>% 
+  mutate("percentual" = round(percentual,digits = 2)) %>% 
+  select(-total) %>% 
+  kable(col.names = c("Gênero", "Número de pessoas", "Percentual"), align = "c") %>%
+kable_styling(bootstrap_options = "hover", full_width = F)
+```
+
+
+### Gênero - Gráfico
+
+```{r genero grafico, message=FALSE, warning= FALSE, echo=FALSE}
+# plot
+  base %>% 
+  group_by(genero) %>% 
+  summarise("n_pessoas"= n()) %>%
+  mutate("total" = sum(n_pessoas))%>%
+  mutate("percentual" = ((n_pessoas/total)*100)) %>% 
+  arrange(desc(n_pessoas)) %>% 
+  adorn_totals("row") %>% 
+  mutate("percentual" = round(percentual,digits = 2)) %>% 
+  select(-total) %>% 
+  filter(genero != "Total") %>% 
+
+  ggplot(aes(x = genero, 
+             y = n_pessoas, 
+             fill = genero,
+             label = paste0(percentual,'%'))) +   # Fill column
+  geom_bar(stat = "identity", width = .6) +   # draw the bars
+  labs(title="Percentual de participantes por gênero",
+       fill = "Gênero") +
+  xlab("Gênero") + ylab('Quantidade de pessoas')+
+  theme_tufte() +  # Tufte theme from ggfortify
+  theme(plot.title = element_text(hjust = .5), 
+  axis.ticks = element_blank()) +   # Centre plot title
+  #scale_fill_brewer(palette = "Dark2")+  # Color palette
+  geom_text_repel(size = 3, 
+                  position = position_stack(vjust = 0.3))
+```
+
+
+
+### Faixa Etária - Tabela
+
+```{r faixa etaria tabela, message=FALSE, warning= FALSE, echo=FALSE}
+# data
+base %>% 
+  group_by(faixa_idade) %>% 
+  summarise("n_pessoas"= n()) %>%
+  mutate("total" = sum(n_pessoas))%>%
+  mutate("percentual" = ((n_pessoas/total)*100)) %>% 
+  arrange(desc(n_pessoas)) %>% 
+  adorn_totals("row") %>% 
+  mutate("percentual" = round(percentual,digits = 2)) %>% 
+  select(-total) %>% 
+  kable(col.names = c("Faixa Etária", "Número de pessoas", "Percentual"), align = "c") %>%
+kable_styling(bootstrap_options = "hover", full_width = F)
+```  
+  
+
+### Faixa Etária - Gráfico
+
+```{r faixa etaria grafico, message=FALSE, warning= FALSE, echo=FALSE}
+  # plot
+
+  base %>% 
+  group_by(faixa_idade) %>% 
+  summarise("n_pessoas"= n()) %>%
+  mutate("total" = sum(n_pessoas))%>%
+  mutate("percentual" = ((n_pessoas/total)*100)) %>% 
+  arrange(desc(n_pessoas)) %>% 
+  adorn_totals("row") %>% 
+  mutate("percentual" = round(percentual,digits = 2)) %>% 
+  select(-total) %>% 
+  filter(faixa_idade != "Total") %>% 
+
+  ggplot(aes(x = faixa_idade, 
+             y = n_pessoas, 
+             fill = faixa_idade,
+             label = paste0(percentual,'%'))) +   # Fill column
+  geom_bar(stat = "identity", width = .6) +   # draw the bars
+  labs(title="Percentual de participantes por faixa etária",
+       fill = "Faixa Etária") +
+  xlab("Faixa Etária") + ylab('Quantidade de pessoas')+
+  theme_tufte() +  # Tufte theme from ggfortify
+  theme(plot.title = element_text(hjust = .5), 
+  axis.ticks = element_blank()) +   # Centre plot title
+  #scale_fill_brewer(palette = "Dark2")+  # Color palette
+  geom_text_repel(size = 3, 
+                  position = position_stack(vjust = 0.3))
+```
+
+
+
+### Gênero x Faixa etária
+
+```{r faixa etaria e sexo, message=FALSE, warning=FALSE, echo=FALSE}
+options(scipen = 999)  # turns of scientific notations like 1e+40
+
+
+# data
+base %>% 
+  group_by(faixa_idade, genero) %>% 
+  summarise("n_pessoas"= n()) %>% 
+  mutate("total" = sum(n_pessoas)) %>% 
+  mutate("percentual" = round(((n_pessoas/total)*100),digits = 2)) %>% 
+  
+  # plot
+  ggplot(aes(x = faixa_idade, 
+             y = n_pessoas, 
+             fill = genero,
+             label = paste0(percentual,'%'))) +   # Fill column
+  geom_bar(stat = "identity", width = .6) +   # draw the bars
+  labs(title="Distribuição % de gênero por faixa etária dos participantes",
+       fill = "Gênero") +
+  xlab("Faixas de idade") + ylab('Quantidade de pessoas')+
+  theme_tufte() +  # Tufte theme from ggfortify
+  theme(plot.title = element_text(hjust = .5), 
+  axis.ticks = element_blank()) +   # Centre plot title
+  #scale_fill_brewer(palette = "Dark2")+  # Color palette
+  geom_text_repel(size = 3, 
+                  position = position_stack(vjust = 0.3))
+```
+
+
+### Ocupação - Tabela
+
+```{r ocupacao tabela, message=FALSE, warning= FALSE, echo=FALSE}
+# data
+
+base %>% 
+  group_by(ocupacao) %>% 
+  summarise("n_pessoas"= n()) %>%
+  mutate("total" = sum(n_pessoas))%>%
+  mutate("percentual" = ((n_pessoas/total)*100)) %>% 
+  arrange(desc(n_pessoas)) %>% 
+  adorn_totals("row") %>% 
+  mutate("percentual" = round(percentual,digits = 2)) %>% 
+  select(-total) %>% 
+  kable(col.names = c("Ocupação", "Número de pessoas", "Percentual"), align = "c") %>%
+kable_styling(bootstrap_options = "hover", full_width = F)
+```
+
+
+### Ocupação - Gráfico
+
+```{r ocupacao grafico, message=FALSE, warning= FALSE, echo=FALSE}
+# plot
+
+  base %>% 
+  group_by(ocupacao) %>% 
+  summarise("n_pessoas"= n()) %>%
+  mutate("total" = sum(n_pessoas))%>%
+  mutate("percentual" = ((n_pessoas/total)*100)) %>% 
+  arrange(desc(n_pessoas)) %>% 
+  adorn_totals("row") %>% 
+  mutate("percentual" = round(percentual,digits = 2)) %>% 
+  select(-total) %>% 
+  filter(ocupacao != "Total") %>% 
+  as.data.frame() %>% 
+  mutate(ocupacao = ifelse(ocupacao == "Profissional da área de transparência (Open Knowledge Brasil, Transparência Brasil etc.)", "Profissional da área de transparência", ocupacao),
+         ocupacao = ifelse(ocupacao=="Profissional da área financeira (Mercado Financeiro, Agência de classificação de risco de crédito, Consultorias Econômicas etc.)","Profissional da área financeira", ocupacao)) %>% 
+  arrange(desc(n_pessoas)) %>%
+
+  ggplot(aes(x = reorder(ocupacao, n_pessoas),#ordernar ocupacao com base nos valores de n_pessoas, de forma decrescente. Para crescente, colocar -n_pessoas. 
+             y = n_pessoas, 
+             fill= ocupacao,
+             label = paste0(percentual,'%'))) +   # Fill column
+  geom_bar(stat = "identity", width = .6) +   # draw the bars
+  labs(title="Percentual de participantes por ocupação") +
+  xlab("Ocupação") + ylab('Quantidade de pessoas')+
+  theme_tufte() +  # Tufte theme from ggfortify
+  theme(plot.title = element_text(hjust = .5), 
+  axis.ticks = element_blank()) +   # Centre plot title
+  #scale_fill_brewer(palette = "Dark2")+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+# Color palette
+  coord_flip()+
+  theme(legend.position = "none")+
+  geom_text(size = 3, 
+            position = position_stack(vjust = 0.4))
+```
+
+
+Características de uso do Portal {data-navmenu="Participantes"}
+=====================================
+
+### Nível de experiência - Tabela
+
+```{r experiencia tabela, message=FALSE, warning= FALSE, echo=FALSE}
+
+base %>% 
+  group_by(nivel_experiencia) %>% 
+  summarise("n_pessoas"= n()) %>%
+  mutate("total" = sum(n_pessoas))%>%
+  mutate("percentual" = ((n_pessoas/total)*100)) %>% 
+  arrange(desc(n_pessoas)) %>% 
+  adorn_totals("row") %>% 
+  mutate("percentual" = round(percentual,digits = 2)) %>% 
+  select(-total) %>% 
+  rename(`Nível de experiência` = nivel_experiencia, 
+         `Número de pessoas`=n_pessoas, 
+         `Percentual`=percentual) %>%
+  formattable(
+            list(
+              `Percentual`=color_bar("#D56580")))
+```
+
+### Frequência de uso - Tabela
+
+```{r frequencia tabela, message=FALSE, warning= FALSE, echo=FALSE}
+
+# data
+base %>% 
+  group_by(frequencia_uso) %>% 
+  summarise("n_pessoas"= n()) %>%
+  mutate("total" = sum(n_pessoas))%>%
+  mutate("percentual" = ((n_pessoas/total)*100)) %>% 
+  arrange(desc(n_pessoas)) %>% 
+  adorn_totals("row") %>% 
+  mutate("percentual" = round(percentual,digits = 2)) %>% 
+  select(-total) %>% 
+  rename(`Frequência de uso` = frequencia_uso, 
+         `Número de pessoas`=n_pessoas, 
+         `Percentual`=percentual) %>%
+  formattable(
+            list(
+              `Percentual`=color_bar("#70CAA6"))) 
+```
+
+### Objetivos de uso - Gráfico
+
+```{r objetivo grafico, message=FALSE, warning= FALSE, echo=FALSE}
+
+# data
+ objetivo_uso <- base %>% select(objetivo_uso) %>% 
+ separate(objetivo_uso, sep = ",", c("A", "B", "C", "D", "E", "F", "G")) %>% #Coloquei até a letra G, pois há somente 7 possibilidades de respostas diferentes
+  gather("ordem","objetivo_uso", A:G) %>% 
+  filter(objetivo_uso != is.na(objetivo_uso)) %>% 
+  mutate(objetivo_uso = str_trim(objetivo_uso, side = c("left"))) %>%
+#remover espaços das linhas específicas
+  group_by(objetivo_uso) %>% 
+  summarise("n_pessoas" =n()) %>%
+  mutate(objetivo_uso = ifelse(objetivo_uso == "Conhecer", "Conhecer, questionar e fiscalizar a aplicação de recursos públicos", objetivo_uso)) %>% 
+  filter(objetivo_uso != "questionar e fiscalizar a aplicação de recursos públicos") %>% 
+  mutate("total" = sum(n_pessoas))%>%
+  mutate("percentual" = ((n_pessoas/total)*100)) %>% 
+  mutate("percentual" = round(percentual,digits = 2)) %>% 
+  arrange(desc(n_pessoas)) 
+
+objetivo_uso$label<- paste(objetivo_uso$objetivo_uso,paste( objetivo_uso$percentual,'%'), sep = " | ")
+
+treemap(objetivo_uso,
+            index=c("label"),
+            vSize="n_pessoas",
+            type="index",
+            title = "Proporção de pessoas por objetivo de uso",
+            fontsize.title = 10
+            ) 
+
+```
+
+
+### Objetivos de uso - Tabela
+
+```{r objetivo tabela, message=FALSE, warning= FALSE, echo=FALSE}
+
+# data
+ objetivo_uso <- base %>% select(objetivo_uso) %>% 
+ separate(objetivo_uso, sep = ",", c("A", "B", "C", "D", "E", "F", "G")) %>% #Coloquei até a letra G, pois há somente 7 possibilidades de respostas diferentes
+  gather("ordem","objetivo_uso", A:G) %>% 
+  filter(objetivo_uso != is.na(objetivo_uso)) %>% 
+  mutate(objetivo_uso = str_trim(objetivo_uso, side = c("left"))) %>%
+#remover espaços das linhas específicas
+  group_by(objetivo_uso) %>% 
+  summarise("n_pessoas" =n()) %>% 
+  mutate(objetivo_uso = ifelse(objetivo_uso == "Conhecer", "Conhecer, questionar e fiscalizar a aplicação de recursos públicos", objetivo_uso)) %>% 
+  filter(objetivo_uso != "questionar e fiscalizar a aplicação de recursos públicos") %>% 
+  mutate("total" = sum(n_pessoas))%>%
+  mutate("percentual" = ((n_pessoas/total)*100)) %>% 
+  mutate("percentual" = round(percentual,digits = 2)) %>% 
+  arrange(desc(n_pessoas))  %>% 
+  select(-total) 
+
+
+    
+  objetivo_uso %>% 
+  kable(col.names = c("Objetivo de uso", "Número de pessoas", "Percentual"), align = "c") %>%
+kable_styling(bootstrap_options = "hover", full_width = F)
+            
+```
+
+
+### Páginas mais acessdas - Gráfico
+
+```{r paginas acessadas grafico, message=FALSE, warning= FALSE, echo=FALSE}
+
+# data
+ paginas_mais_acessadas <- base %>% select(paginas_mais_acessadas) %>% 
+ separate(paginas_mais_acessadas, sep = ",", c("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K")) %>% #Coloquei até a letra G, pois há somente 11 possibilidades de respostas diferentes
+  gather("ordem","paginas_mais_acessadas", A:K) %>% 
+  filter(paginas_mais_acessadas != is.na(paginas_mais_acessadas)) %>% 
+#remover espaços das linhas específicas
+  mutate(paginas_mais_acessadas = str_trim(paginas_mais_acessadas, side = c("left"))) %>%
+  group_by(paginas_mais_acessadas) %>% 
+  summarise("n_pessoas" =n()) %>% 
+  mutate("total" = sum(n_pessoas))%>%
+  mutate("percentual" = ((n_pessoas/total)*100)) %>% 
+  mutate("percentual" = round(percentual,digits = 2)) %>% 
+  arrange(desc(n_pessoas)) 
+
+paginas_mais_acessadas$label<- paste(paginas_mais_acessadas$paginas_mais_acessadas,paste( paginas_mais_acessadas$percentual,'%'), sep = " | ") 
+
+treemap(paginas_mais_acessadas,
+            index=c("label"),
+            vSize="n_pessoas",
+            type="index",
+            title = "Proporção de pessoas por página acessada",
+            fontsize.title = 10
+            ) 
+
+```
+
+
+### Páginas mais acessadas - Tabela
+
+
+```{r acesso tabela, message=FALSE, warning= FALSE, echo=FALSE}
+# data
+ paginas_mais_acessadas <- base %>% select(paginas_mais_acessadas) %>% 
+ separate(paginas_mais_acessadas, sep = ",", c("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K")) %>% #Coloquei até a letra G, pois há somente 11 possibilidades de respostas diferentes
+  gather("ordem","paginas_mais_acessadas", A:K) %>% 
+  filter(paginas_mais_acessadas != is.na(paginas_mais_acessadas)) %>% 
+#remover espaços das linhas específicas
+  mutate(paginas_mais_acessadas = str_trim(paginas_mais_acessadas, side = c("left"))) %>%
+  group_by(paginas_mais_acessadas) %>% 
+  summarise("n_pessoas" =n()) %>% 
+  mutate("total" = sum(n_pessoas))%>%
+  mutate("percentual" = ((n_pessoas/total)*100)) %>% 
+  mutate("percentual" = round(percentual,digits = 2)) %>% 
+  arrange(desc(n_pessoas)) %>% 
+  select(-total) 
+    
+  paginas_mais_acessadas %>% 
+  kable(col.names = c("Páginas mais acessadas", "Número de pessoas", "Percentual"), align = "c") %>%
+kable_styling(bootstrap_options = "hover", full_width = F)
+            
+```
+
+
+Avaliação Escala Likert {data-navmenu="Dados do Portal"}
+=====================================
+
+## Avaliação Escala Likert
+
+```{r facilidade, fig.width= 10, message=FALSE, warning=FALSE, echo=FALSE}
+  base %>% 
+  group_by(likert1_facilidade) %>% 
+  summarise("n_pessoas"= n()) %>% 
+  mutate("total" = sum(n_pessoas)) %>% 
+  mutate("percentual" = round(((n_pessoas/total)*100),digits = 2)) %>% 
+   #mutate(likert1_facilidade = fct_reorder(likert1_facilidade, desc(likert1_facilidade))) %>% 
+
+  ggplot(aes(y= percentual, 
+             x= "", 
+             fill=reorder(likert1_facilidade,desc(likert1_facilidade)),
+             label = paste0(percentual,'%'))) + 
+  geom_bar(stat="identity", 
+           width = 0.5) + 
+  #inverte o gráfico:
+  coord_flip()  + 
+  #ordena a legenda para ficar na ordem desejado:
+  scale_fill_discrete(breaks=c("1","2","3", "4","5")) + 
+  scale_fill_manual(values = c("#47BA41",
+                               "#ABBA19",
+                               "#FFCE00",
+                               "#FF4E02",
+                               "#D21D00"))+ 
+  labs(fill= "Nível da escala Likert")+
+  xlab('') + ylab('Percentual de respondentes')+
+  #coloca os limites do eixo y
+  scale_y_continuous(breaks = c(0,50,100)) +
+  geom_text_repel(size = 5, 
+                  position = position_stack(vjust = 0.5))+
+  #theme_classic(base_family = "Calibri", base_size = 14)+
+  theme(legend.position = "top", legend.justification = 0.5, axis.text = element_text(size = 12, face = "bold"),
+        axis.title.y = element_text(margin = margin(r = 20)), axis.title.x = element_text(margin = margin(t = 10))) +
+  labs(title = "Facilidade em encontrar informações",subtitle = paste("Percentual de respondentes por nível da escala likert"))+
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(plot.subtitle = element_text(hjust = 0.5)) 
+```
+
+
+```{r linguagem, fig.width= 10, message=FALSE, warning=FALSE, echo=FALSE}
+  base %>% 
+  group_by(likert2_linguagem) %>% 
+  summarise("n_pessoas"= n()) %>% 
+  mutate("total" = sum(n_pessoas)) %>% 
+  mutate("percentual" = round(((n_pessoas/total)*100),digits = 2)) %>% 
+   #mutate(likert1_facilidade = fct_reorder(likert1_facilidade, desc(likert1_facilidade))) %>% 
+
+  ggplot(aes(y= percentual, 
+             x= "", 
+             fill=reorder(likert2_linguagem,desc(likert2_linguagem)),
+             label = paste0(percentual,'%'))) + 
+  geom_bar(stat="identity", 
+           width = 0.5) + 
+  #inverte o gráfico:
+  coord_flip()  + 
+  #ordena a legenda para ficar na ordem desejado:
+  scale_fill_discrete(breaks=c("1","2","3", "4","5")) + 
+  scale_fill_manual(values = c("#47BA41",
+                               "#ABBA19",
+                               "#FFCE00",
+                               "#FF4E02",
+                               "#D21D00"))+ 
+  labs(fill= "Nível da escala Likert")+
+  xlab('') + ylab('Percentual de respondentes')+
+  #coloca os limites do eixo y
+  scale_y_continuous(breaks = c(0,50,100)) +
+  geom_text_repel(size = 5, 
+                  position = position_stack(vjust = 0.5))+
+  #theme_classic(base_family = "Calibri", base_size = 14)+
+  theme(legend.position = "top", legend.justification = 0.5, axis.text = element_text(size = 12, face = "bold"),
+        axis.title.y = element_text(margin = margin(r = 20)), axis.title.x = element_text(margin = margin(t = 10))) +
+  labs(title = "Facilidade em compreender a linguagem utilizada",subtitle = paste("Percentual de respondentes por nível da escala likert")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(plot.subtitle = element_text(hjust = 0.5)) 
+```
+
+```{r estetica, fig.width= 10, message=FALSE, warning=FALSE, echo=FALSE}
+  base %>%
+  group_by(likert3_estetica) %>% 
+  summarise("n_pessoas"= n()) %>% 
+  mutate("total" = sum(n_pessoas)) %>% 
+  mutate("percentual" = round(((n_pessoas/total)*100),digits = 2)) %>% 
+   #mutate(likert1_facilidade = fct_reorder(likert1_facilidade, desc(likert1_facilidade))) %>% 
+
+  ggplot(aes(y= percentual, 
+             x= "", 
+             fill=reorder(likert3_estetica,desc(likert3_estetica)),
+             label = paste0(percentual,'%'))) + 
+  geom_bar(stat="identity", 
+           width = 0.5) + 
+  #inverte o gráfico:
+  coord_flip()  + 
+  #ordena a legenda para ficar na ordem desejado:
+  scale_fill_discrete(breaks=c("1","2","3", "4","5")) + 
+  scale_fill_manual(values = c("#47BA41",
+                               "#ABBA19",
+                               "#FFCE00",
+                               "#FF4E02",
+                               "#D21D00"))+ 
+  labs(fill= "Nível da escala Likert")+
+  xlab('') + ylab('Percentual de respondentes')+
+  #coloca os limites do eixo y
+  scale_y_continuous(breaks = c(0,50,100)) +
+  geom_text_repel(size = 5, 
+                  position = position_stack(vjust = 0.5))+
+  #theme_classic(base_family = "Calibri", base_size = 14)+
+  theme(legend.position = "top", legend.justification = 0.5, axis.text = element_text(size = 12, face = "bold"),
+        axis.title.y = element_text(margin = margin(r = 20)), axis.title.x = element_text(margin = margin(t = 10))) +
+  labs(title = "Estética agradável",subtitle = paste("Percentual de respondentes por nível da escala likert")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(plot.subtitle = element_text(hjust = 0.5)) 
+```
+
+
+```{r recursos, fig.width= 10, message=FALSE, warning=FALSE, echo=FALSE}
+  base %>%
+  group_by(likert4_recursos) %>% 
+  summarise("n_pessoas"= n()) %>% 
+  mutate("total" = sum(n_pessoas)) %>% 
+  mutate("percentual" = round(((n_pessoas/total)*100),digits = 2)) %>% 
+   #mutate(likert1_facilidade = fct_reorder(likert1_facilidade, desc(likert1_facilidade))) %>% 
+
+  ggplot(aes(y= percentual, 
+             x= "", 
+             fill=reorder(likert4_recursos,desc(likert4_recursos)),
+             label = paste0(percentual,'%'))) + 
+  geom_bar(stat="identity", 
+           width = 0.5) + 
+  #inverte o gráfico:
+  coord_flip()  + 
+  #ordena a legenda para ficar na ordem desejado:
+  scale_fill_discrete(breaks=c("1","2","3", "4","5")) + 
+  scale_fill_manual(values = c("#47BA41",
+                               "#ABBA19",
+                               "#FFCE00",
+                               "#FF4E02",
+                               "#D21D00"))+ 
+  labs(fill= "Nível da escala Likert")+
+  xlab('') + ylab('Percentual de respondentes')+
+  #coloca os limites do eixo y
+  scale_y_continuous(breaks = c(0,50,100)) +
+  geom_text_repel(size = 5, 
+                  position = position_stack(vjust = 0.5))+
+  #theme_classic(base_family = "Calibri", base_size = 14)+
+  theme(legend.position = "top", legend.justification = 0.5, axis.text = element_text(size = 12, face = "bold"),
+        axis.title.y = element_text(margin = margin(r = 20)), axis.title.x = element_text(margin = margin(t = 10))) +
+  labs(title = "Clareza dos recursos de navegação",subtitle = paste("Percentual de respondentes por nível da escala likert")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(plot.subtitle = element_text(hjust = 0.5)) 
+```
+
+---------------
+
+```{r grafico comparado likert, fig.width= 10, message=FALSE, echo= FALSE, warning=FALSE}
+# Covert values to factors
+base_likert = as.data.frame(base[9:12])
+names(base_likert)<- names(base_nomes_originais[9:12])
+# Create a likert object
+objeto_likert = likert(base_likert)
+
+# Figure 2
+plot(objeto_likert,
+     ordered = FALSE, 
+     group.order = names(base_likert),
+     colors = c(
+       "#D21D00",
+       "#FF4E02",
+       "#FFCE00",
+       "#ABBA19",
+       "#47BA41"),
+     title = "Facilidade em encontrar informaçõesno Portal da Transparência",
+     legend = "Fonte:Formulário de pesquisa com usuários do Portal da Transparência - LAB.mg + CGE-MG")
+```
+
+Escala Likert por Grupos {data-navmenu="Dados do Portal"}
+=====================================
+
+## Escala Likert por faixa etária
+
+
+Column
+--------------------------------------------
+
+```{r fe 1, fig.width= 8, message=FALSE, warning=FALSE, echo=FALSE, include=FALSE}
+  
+#mode <- function(codes){
+  #which.max(tabulate(codes))
+#}
+
+#base %>%
+  #mutate("likert1_facilidade" = as.numeric(likert1_facilidade),
+         #"likert2_linguagem" = as.numeric(likert2_linguagem),
+         #"likert3_estetica" = as.numeric(likert3_estetica),
+         #"likert4_recursos" = as.numeric(likert4_recursos)) %>% 
+  #group_by(faixa_idade) %>% 
+  #summarise("likert1_facilidade" = mode(likert1_facilidade),
+            #"likert2_linguagem" = mode(likert2_linguagem),
+            #"likert3_estetica" = mode(likert3_estetica),
+            #"likert4_recursos" = mode(likert4_recursos)) %>%
+  base %>% 
+  select(faixa_idade,likert1_facilidade) %>% 
+  group_by(faixa_idade,likert1_facilidade) %>% 
+  summarise("n_pessoas"= n()) %>% 
+  mutate("total" = sum(n_pessoas)) %>% 
+  mutate("percentual" = round(((n_pessoas/total)*100),digits = 2)) %>% 
+  ggplot(aes(y= percentual, 
+             x= faixa_idade, 
+             fill=reorder(likert1_facilidade,desc(likert1_facilidade)),
+             label = paste0(percentual,'%'))) + 
+  geom_bar(stat="identity", 
+           width = 0.5) + 
+  #ordena a legenda para ficar na ordem desejado:
+  scale_fill_discrete(breaks=c("1","2","3", "4","5")) + 
+  scale_fill_manual(values = c("#47BA41",
+                               "#ABBA19",
+                               "#FFCE00",
+                               "#FF4E02",
+                               "#D21D00"))+ 
+  labs(fill= "Nível da escala Likert")+
+  xlab('Faixas de idade') + ylab('Percentual de respondentes')+
+  geom_text(size = 3, 
+                  position = position_stack(vjust = 0.5))+
+  theme(legend.justification = 0.5) +
+  labs(title = "Facilidade em encontrar informações por faixa etária",subtitle = paste("Percentual de respondentes por nível da escala likert")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(plot.subtitle = element_text(hjust = 0.5)) 
+```
+
+
+```{r fe 2, fig.width= 8, message=FALSE, warning=FALSE, echo=FALSE,include=FALSE}
+  base %>% 
+  select(faixa_idade,likert2_linguagem) %>% 
+  group_by(faixa_idade,likert2_linguagem) %>% 
+  summarise("n_pessoas"= n()) %>% 
+  mutate("total" = sum(n_pessoas)) %>% 
+  mutate("percentual" = round(((n_pessoas/total)*100),digits = 2)) %>% 
+  ggplot(aes(y= percentual, 
+             x= faixa_idade, 
+             fill=reorder(likert2_linguagem,desc(likert2_linguagem)),
+             label = paste0(percentual,'%'))) + 
+  geom_bar(stat="identity", 
+           width = 0.5) + 
+  #ordena a legenda para ficar na ordem desejado:
+  scale_fill_discrete(breaks=c("1","2","3", "4","5")) + 
+  scale_fill_manual(values = c("#47BA41",
+                               "#ABBA19",
+                               "#FFCE00",
+                               "#FF4E02",
+                               "#D21D00"))+ 
+  labs(fill= "Nível da escala Likert")+
+  xlab('Faixas de idade') + ylab('Percentual de respondentes')+
+  geom_text(size = 3, 
+                  position = position_stack(vjust = 0.5))+
+  theme(legend.justification = 0.5) +
+  labs(title = "Facilidade em compreender a linguagem utilizada por faixa etária",subtitle = paste("Percentual de respondentes por nível da escala likert")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(plot.subtitle = element_text(hjust = 0.5)) 
+```
+
+
+
+```{r fe 3, fig.width= 8, message=FALSE, warning=FALSE, echo=FALSE,include=FALSE}
+  base %>% 
+  select(faixa_idade,likert3_estetica) %>% 
+  group_by(faixa_idade,likert3_estetica) %>% 
+  summarise("n_pessoas"= n()) %>% 
+  mutate("total" = sum(n_pessoas)) %>% 
+  mutate("percentual" = round(((n_pessoas/total)*100),digits = 2)) %>% 
+  ggplot(aes(y= percentual, 
+             x= faixa_idade, 
+             fill=reorder(likert3_estetica,desc(likert3_estetica)),
+             label = paste0(percentual,'%'))) + 
+  geom_bar(stat="identity", 
+           width = 0.5) + 
+  #ordena a legenda para ficar na ordem desejado:
+  scale_fill_discrete(breaks=c("1","2","3", "4","5")) + 
+  scale_fill_manual(values = c("#47BA41",
+                               "#ABBA19",
+                               "#FFCE00",
+                               "#FF4E02",
+                               "#D21D00"))+ 
+  labs(fill= "Nível da escala Likert")+
+  xlab('Faixas de idade') + ylab('Percentual de respondentes')+
+  geom_text(size = 3, 
+                  position = position_stack(vjust = 0.5))+
+  theme(legend.justification = 0.5) +
+  labs(title = "Estética agradável por faixa etária",subtitle = paste("Percentual de respondentes por nível da escala likert")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(plot.subtitle = element_text(hjust = 0.5)) 
+```
+
+```{r fe 4, fig.width= 8, message=FALSE, warning=FALSE, echo=FALSE,include=FALSE}
+  base %>% 
+  select(faixa_idade, likert4_recursos) %>% 
+  group_by(faixa_idade,likert4_recursos) %>% 
+  summarise("n_pessoas"= n()) %>% 
+  mutate("total" = sum(n_pessoas)) %>% 
+  mutate("percentual" = round(((n_pessoas/total)*100),digits = 2)) %>% 
+  ggplot(aes(y= percentual, 
+             x= faixa_idade, 
+             fill=reorder(likert4_recursos,desc(likert4_recursos)),
+             label = paste0(percentual,'%'))) + 
+  geom_bar(stat="identity", 
+           width = 0.5) + 
+  #ordena a legenda para ficar na ordem desejado:
+  scale_fill_discrete(breaks=c("1","2","3", "4","5")) + 
+  scale_fill_manual(values = c("#47BA41",
+                               "#ABBA19",
+                               "#FFCE00",
+                               "#FF4E02",
+                               "#D21D00"))+ 
+  labs(fill= "Nível da escala Likert")+
+  xlab('Faixas de idade') + ylab('Percentual de respondentes')+
+  geom_text(size = 3, 
+                  position = position_stack(vjust = 0.5))+
+  theme(legend.justification = 0.5) +
+  labs(title = "Clareza dos recursos de navegação por faixa etária",subtitle = paste("Percentual de respondentes por nível da escala likert")) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(plot.subtitle = element_text(hjust = 0.5)) 
+```
+
+
+```{r likert por faixa etaria, fig.width= 10, fig.height= 10, message=FALSE, warning=FALSE, echo=FALSE}
+# Covert values to factors
+base_likert = as.data.frame(base[9:12])
+names(base_likert)<- names(base_nomes_originais[9:12])
+# Create a likert object
+objeto_likert = likert(base_likert, grouping = base$faixa_idade)
+
+# Figure 2
+plot(objeto_likert,
+     ordered = TRUE,
+     colors = c(
+       "#D21D00",
+       "#FF4E02",
+       "#FFCE00",
+       "#ABBA19",
+       "#47BA41"),
+     title = "Facilidade em encontrar informaçõesno Portal da Transparência")
+```
+
+
+## Escala Likert por ocupação
+
+
+Column
+--------------------------------------------
+```{r likert por ocupacao, fig.width= 10, fig.height= 20, message=FALSE, warning=FALSE, echo=FALSE}
+
+# Covert values to factors
+base_likert = as.data.frame(base[9:12])
+names(base_likert)<- names(base_nomes_originais[9:12])
+
+base_ocupacao<- base %>%
+  select(ocupacao) %>% 
+  mutate(ocupacao = ifelse(ocupacao == "Profissional da área de transparência (Open Knowledge Brasil, Transparência Brasil etc.)", "Profissional da área de transparência", ocupacao),
+         ocupacao = ifelse(ocupacao=="Profissional da área financeira (Mercado Financeiro, Agência de classificação de risco de crédito, Consultorias Econômicas etc.)","Profissional da área financeira", ocupacao))
+# Create a likert object
+objeto_likert = likert(base_likert, grouping = base_ocupacao$ocupacao)
+
+# Figure 2
+plot(objeto_likert,
+     ordered = TRUE,
+     colors = c(
+       "#D21D00",
+       "#FF4E02",
+       "#FFCE00",
+       "#ABBA19",
+       "#47BA41"),
+     title = "Facilidade em encontrar informaçõesno Portal da Transparência",
+     legend = "Fonte:Formulário de pesquisa com usuários do Portal da Transparência - LAB.mg + CGE-MG")
+```
+
+## Escala Likert por nível de experiência
+
+
+Column
+--------------------------------------------
+
+```{r likert por experiencia, fig.width= 10, fig.height= 10, message=FALSE, warning=FALSE, echo=FALSE}
+
+# Covert values to factors
+base_likert = as.data.frame(base[9:12])
+names(base_likert)<- names(base_nomes_originais[9:12])
+
+base_experiencia<- base %>% 
+  select(nivel_experiencia) %>% 
+  mutate("nivel_experiencia"= factor(nivel_experiencia, 
+                             levels= c("Não utilizo o Portal da transparência",
+                                       "Inexperiente",
+                                       "Pouco experiente",
+                                       "Experiente",
+                                       "Muito experiente")))
+# Create a likert object
+objeto_likert = likert(base_likert, grouping = base_experiencia$nivel_experiencia)
+
+# Figure 2
+plot(objeto_likert,
+     ordered = FALSE,
+     colors = c(
+       "#D21D00",
+       "#FF4E02",
+       "#FFCE00",
+       "#ABBA19",
+       "#47BA41"),
+     title = "Facilidade em encontrar informaçõesno Portal da Transparência",
+     legend = "Fonte:Formulário de pesquisa com usuários do Portal da Transparência - LAB.mg + CGE-MG")
+```
+
+
+## Escala Likert por frequência de uso
+
+
+Column
+--------------------------------------------
+
+```{r likert por frequencia de uso, fig.width= 10, fig.height= 11, message=FALSE, warning=FALSE, echo=FALSE}
+
+# Covert values to factors
+base_likert = as.data.frame(base[9:12])
+names(base_likert)<- names(base_nomes_originais[9:12])
+
+base_acesso<- base %>% 
+  select(frequencia_uso) %>% 
+  mutate("frequencia_uso"= factor(frequencia_uso, 
+                             levels= c("Não utilizo",
+                                       "Acessei poucas vezes",
+                                       "Menos de uma vez por mês",
+                                       "Algumas vezes por mês",
+                                       "Algumas vezes por semana",
+                                        "Diariamente")))
+# Create a likert object
+objeto_likert = likert(base_likert, grouping = base_acesso$frequencia_uso)
+
+# Figure 2
+plot(objeto_likert,
+     ordered = FALSE,
+     colors = c(
+       "#D21D00",
+       "#FF4E02",
+       "#FFCE00",
+       "#ABBA19",
+       "#47BA41"),
+     title = "Facilidade em encontrar informaçõesno Portal da Transparência",
+     legend = "Fonte:Formulário de pesquisa com usuários do Portal da Transparência - LAB.mg + CGE-MG")
+```
+
+
+Introdução {data-navmenu="Sobre"}
+=====================================
+
+Este painel foi elaborado com o objetivo de promover visualização e análise aos dados coletados em pesquisa, a respeito dos usuários do Portal da Transparência da Controladoria Geral do Estado (CGE-MG). 
+
+- *Fonte:* Formulário "Google Forms" - Pesquisa Portal da Transparência de Minas Gerais
+
+- *Data de atualização:* 31/03/2021
+
+- *Elaboração:* LAB.mg
+
+Links úteis {data-navmenu="Sobre"}
+=====================================
+
+- Portal da Transparência da CGE: http://www.transparencia.mg.gov.br/
+- Link do formulário: https://docs.google.com/forms/d/e/1FAIpQLSdiAnPfdfSPJsFmmu1tlvZSnyMn2GiF66tpRXKTfk67JClRFw/viewform
+- Link do painel:https://rpubs.com/luisasouzacosta/painel_pesquisa_cge

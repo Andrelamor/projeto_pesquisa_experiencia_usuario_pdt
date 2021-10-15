@@ -1,0 +1,1144 @@
+ID;AUTORIA;"ORIGEM
+(opcional)";CONSULTA PORTAL DA TRANSPARÊNCIA;"CATEGORIA
+(opcional)";PONTOS DE ATENÇÃO;SUGESTÕES/BOAS PRÁTICAS;OBSERVAÇÕES;"IMPACTO NO USUÁRIO
+(1- Baixo; 2- Médio; 3- Alto)";VIABILIDADE (sim/não);"ESFORÇO (1-Baixo; 2-Médio; 3- Alto)";PRIORIDADE (baixa/alta)
+1;LAB.MG;Fale Conosco;RECEITA;INCLUSÃO DE INFORMAÇÕES;"Usuário não encontrou o descritivo dos gastos feitos com a ""Taxa de Incêndio"". Encontrou informação da receita arrecadada da taxa de incêndio somente até 2006.";Facilitar o acesso à pesquisa avançada ou disponibilizar informações que evideciem para o usuário onde esses dados ficam disponibilizados no site;"Os gastos com taxa de incêndio podem ser encontrados na consulta avançada da despesa e receita por meio da Fonte de Recurso
+
+";baixo;-;-;baixa
+2;LAB.MG;FALE CONOSCO;DÍVIDA;USABILIDADE;Usuário não conseguiu fazer o download de nenhuma das planilhas da Gestão da dívida;"Verificar se é possível inserir informação que para ter acesso as planilhas da gestão da dívida por meio do Portal de Transparência o usuário precisa realizar a cópia individualmente das telas. 
+Dados são disponibilizados pela SEF";"Para ter acesso as planilhas da gestão da dívida por meio do Portal de Transparência é preciso realizar a cópia individualmente das telas. 
+Caso deseje ter acesso aos arquivos em outros formatos é preciso que seja feita uma solicitação através do Serviço eletrônico de Informação ao Cidadão – e-SIC ou por meio do telefone 155, uma vez que esses arquivos são de responsabilidade da Secretaria de Estado da Fazenda- SEF.
+";médio;não;-;-
+3;LAB.MG;Fale Conosco;FAQ;INCLUSÃO DE INFORMAÇÕES;Usuário não identificou onde ficava estipulado no Portal da Transparência os gastos do Governo em relação a MGS ( usuário copiou o contrato no site, porém não ví nada em questão de atuação e funcionários dentro do interior de Minas).;"Criar uma seção dentro de ""Informaçõe Gerais"" com o link para as empresas Estatais dependentes e não dependentes de forma que usuário tenha acesso fácil ao dados que não constam no Portal.
+Além disso acrescentar no FAQ de onde são encontrados dados das empresas públicas. Ex.FAQ http://www.transparencia.mg.gov.br/perguntas-frequentes#onde-se-encontram-informa%C3%A7%C3%B5es-sobre-os-recursos-empregados-pelo-poder-legislativo-poder-judici%C3%A1rio-e-minist%C3%A9rio-p%C3%BAblico-de-minas-gerais";"Com relação ao que o Estado gasta com o fornecedor de serviços MGS, é possível saber em: Despesas > Despesas > Consulta por favorecido. 
+Com relação às despesas da MGS, incluindo folha de pessoal, esses dados não se encontram no Portal porque trata-se de uma empresa pública que não executa sua despesa no Sistema de Administração Financeira de Minas Gerais (SIAFI - MG) que fornece os dados que alimentam o Portal. 
+Silviana: Acrescentar a informação como conteúdo estático";médio;sim;médio;BAIXA
+4;LAB.MG;Fale Conosco;GERAL;INCLUSÃO DE INFORMAÇÕES;"Usuário não encontrou no Portal da Transparência ou Siafi os ""repasses totais"" do Estado de Minas Gerais para os Municípios, entre impostos, programas, transferências de recursos, convênios .";;A informação deve ser localizada separadamento;alto;não;-;-
+5;LAB.MG;Fale Conosco;???;INCLUSÃO DE INFORMAÇÕES;Usuário não encontrou nas Demonstrações Contábeis de 2015, os valores do ativo financeiro e passivo financeiro, ativo e passivo patrimonial e saldo patrimonial. No Balanço de 2015, estes dados não foram sintetizados no sítio do Portal de Transparência de MG, nem tampouco nas informações para a Secretaria do Tesouro Nacional.;"Dúvida: se a pessoa joga isso na busca ela consegue encontrar essa informaçõa?
+Essas informações devem ser solicitadas à Secretária de Estado da Fazenda. Sugiro que seja feita uma solicitação através do Serviço eletrônico de Informação ao Cidadão – e-SIC, por meio do endereço eletrônico http://www.transparencia.mg.gov.br/acessoainformacao, ou por meio do telefone 155 (ligação gratuita), uma vez que esses arquivos são de responsabilidade da Secretaria de Estado da Fazenda- SEF.";Usuário não identificou que essa informação não estava no Portal;;;;
+6;LAB.MG;Fale Conosco;DESPESA;CONCEITO;"Usuário não identificou onde era possível encontrar o descritivo dos gastos feitos com a ""Taxa de Incêndio""de vários anos atrás";Verificar como é possível deixar essa informação mais clara no site;;baixo;-;;baixa
+7;LAB.MG;ANÁLISE EXPLORATÓRIA (menu superior);PÁGINA INICIAL;LAYOUT;Menu superior é estático e não permite que o usuário  veja todas as opções disponíveis;Verificar a possibilidade de criar um menu no formato drop down;"ver modelo Portal MG. Analisar possibilidade de alterar o comportamento do menu (forma como abre) (ex.: mouse hover) - Colocar mouse hover no menu para abrir as opções disponíveis
+";médio;sim;alto;alta
+8;LAB.MG;Análise exploratória (menu superior);MENU SUPERIOR;ORGANIZAR DADOS;Menu superior: dentro da opção “Informações gerais” tem informações que talvez poderiam ser reclassificadas em outro menu;Organizar as informações em menu sanfona para padronizar com outras abas do menu e reorganizar as informações.;casa com id23;baixo;sim;baixo;baixa
+9;LAB.MG;Análise exploratória (menu superior);FAQ;ORGANIZAR DADOS;"Dentro da opção de “perguntas frequentes” não existe uma subdivisão por assunto, o que causou dificuldade para encontrar os temas a serem pesquisados
+";" Inserir subdivisão por assuntos ou inserir dentro de cada menu de acesso rápido as opções de perguntas relacionadas ao tema ( ex: inserir dúvidas relacionadas aos municípios dentro do menu de acesso rápido ""Municípios"")
+";melhorar o layout do site, importante, mas não trará melhoria significativa nas consultas e nas buscas;baixo;sim;baixo;baixa
+10;LAB.MG;"Análise exploratória
+(menu superior)";MANUAL DO USUÁRIO;ORGANIZAR DADOS;Manual de acesso ao portal poderia estar em outro lugar mais acessível para o usuário;"O Manual pode ser dividido por temáticas em cada uma das telas, pensando que dificilmente alguém vai abrir o manual para pesquisar inteiro antes de fazer uma pesquisa rápida. Podem ser inseridas pequenas ajudas em cada uma das telas a que o manual se refere.
+";Tudo que auxiliará o usuário a realizar consultas de maneira mais fácil considero importante;alto;sim;médio;alta
+11;LAB.MG;"Análise exploratória
+(menu superior)";O QUE É O PORTAL;ORGANIZAR DADOS;"O menu ""o que é o portal"" contem informações sobre a lei de acesso à informação";"As informações referentes à Lei de acesso à informação poderiam estar no menu ""legislação"" o que pode faciliar a consulta do usuário";melhorar o layout do site, importante, mas não trará melhoria significativa nas consultas e nas buscas;baixo;sim;médio;baixa
+12;LAB.MG;ANÁLISE EXPLORATÓRIA (menu de acesso rápido);MENU;LAYOUT;O menu que abre após o usuário clicar em uma das opções do acesso rápido fica escondido;"Verificar possibilidade de alterar o layout do menu 
+( ex: drop down)";"Já observamos em outros testes que o usuário prefere outros formatos de menu que deixam todas as opções visíveis
+Silviana: Deixar as opções fixas: Ex. Portal de Salvador / Pernambuco ou colocar na lateral (ex. site SEPLAG)";médio;sim;alto;baixo
+13;LAB.MG;Análise exploratória;CONTÉUDO ESTÁTICO;INCLUSÃO DE INFORMAÇÕES;"Não existe explicação introdutória disponibilizada na página estática de todos os conteúdos do acesso rápido.
+-Receita e Transferência de Impostos: vai direto para a consulta (não existe outra opção como em ‘despesas’ ou ´pessoal’;
+-Convênios, Despesas e Dívida Pública: existe espaço em brancco para o texto estático explicar as opções de consultas em cada um 
+-TCE/Obras Públicas: vai direto para o site do TCE 
+ ";Padronizar a página introdutória de todos os conteúdos para facilitar o entendimento das informações que estão disponíveis e de como o usuário deve realizar a consulta.;;baixo;sim;médio;BAIXA
+14;LAB.MG;Análise exploratória;GERAL;ORGANIZAR DADOS;"Falta de padronização na organização de todas as páginas de conteúdo do menu de acesso rápido. Dentro do menu “Sobre a cidadania fiscal” existe um menu lateral para organizar as informações dentro deste espaço.
+";Verificar a possibilidade de adotar esse tipo de organização para outras páginas de conteúdo, tentar padronizar.;melhorar o layout do site, importante, mas não trará melhoria significativa nas consultas e nas buscas;baixo;sim;alto;baixa
+15;LAB.MG;ANÁLISE EXPLORATÓRIA;PÁGINA INICIAL;LAYOUT;As informações do menu de acesso rápido possui uma lógica de organização que não fica clara para o usuário (consultas elaboradas e desenvolvidas pela CGE estão posicionadas embaixo da faixa vermelha e consultas que direcionam para sites internos estão posicionados na faixa amarela.;Toda informação disponível no site que precisa ser compreendida pelo usuário deve estar descrita de forma explicita, o usuário não deve deduzir o que o desenvolvedor pensou.;Não está claro para o usuário que os menus embaixo da barra laranja são outros sites. Uma vez que existem menus dentros das outras consultas que também são links externos;médio;sim;alto;baixo
+16;LAB.MG;Análise exploratória;CANAIS DE ATENDIMENTO;COMUNICAÇÃO COM O USUÁRIO;"
+Os canais de atendimento não estão centralizados em um único local dentro do site";"Verificar se é possível centralizar  todos os canais de atendimento dentro de um menu atendimento, inclusive o fale conosco ( dentro da opção ""Lei de acesso à informação"", no menu “o que é o portal” existem alguns canais de atendimento para registro de demanda de informações referentes a essa lei podem ser inseridos juntamente com os demais canais de atendimento para facilitar que as pessoas saibam da existência desses canais)
+";Olhar sugestão do Portal MG;médio;SIM;2;alta
+17;LAB.MG;Análise exploratória;CANAIS DE ATENDIMENTO;COMUNICAÇÃO COM O USUÁRIO;A página do formulário do fale conosco não tem o link/direcionamento para os outros canais de atendimento;"Inserir todas as opções de atendimento próximo ao formulário do fale conosco; verificar se é possível inserir ""dúvidas?fale conosco"" ao final de todas as páginas";Olhar modelo Portal MG;médio;SIM;2;alta
+18;LAB.MG;ANÁLISE EXPLORATÓRIA;PÁGINA INICIAL;LAYOUT;"Imagem de fundo dá sensação de completude na tela e não diz para o usuário que ele pode rolar a página para baixo.
+";Repensar o layout da página, rever a organização dos itens, reduzir o tamanho das notícias e dos vídeos;"Olhar modelo Portal MG
+Silviana: Regorganizar a página inicial do Portal (alterar cor, fonte e etc)";médio;sim;alto;baixo
+19;LAB.MG;ANÁLISE EXPLORATÓRIA;PÁGINA INICIAL;LAYOUT;Campo com as notícias está ocupando muito espaço;Reestruturar as notícias, talvez com um título, posicionar melhor o banco de notícias;"Olhar modelo Portal MG.
+Notícias não estão no menu inicial nem no menu de conteúdo; título ‘banco de notícias’ com hiperlink para todas elas está escondido.
+";médio;sim;alto;baixo
+20;LAB.MG;Análise exploratória;CONTÉUDO ESTÁTICO;LAYOUT;A informação sobre a frequência de atualização do site não está evidente no site .Em cada consulta há uma marcação automática, e as diferentes frequências por consulta estão em perguntas frequentes;"Deixar essa informação explicita pra o usuário. 
+";Silviana: A marcação de atualização dos dados confunde o usuario, pois existe data de atualização nos artigos o que as vezes ocasiona dúvida sobre a atualização;3;SIM;3;ALTA
+21;LAB.MG;Análise exploratória;CONTÉUDO ESTÁTICO;INCLUSÃO DE INFORMAÇÕES;O menu de acesso rápido “ Acesso à informação” não possui informação introduótira (página estática) que oriente o usuário e redireciona direto para o Sistema Eletrônico do Serviço de Informações ao Cidadão;Inserir explicação sobre a legislação e sobre o site e-SIC, explicando qual sua finalidade e o que o usuário pode encontrar nesse canal.;Silviana: Não vejo necessidade de acrescentar esses dados, pois quando o usuário;baixo;sim;baixo;BAIXA
+22;LAB.MG;Análise exploratória;FISCALIZANDO COM TCE;CONCEITO;Não existe explicação introdutória na menu de “Municípios”;Inserir página estática com explicação introdutória e perguntas frequentes relacionadas aos munciípios dentro desse menu ( ex: pegar algumas perguntas mais frequentes sobre o programa de transparência e outras dúvidas que surgem muito no fale conosco);;2;NÃO;3;BAIXA
+23;LAB.MG;Análise exploratória;INFORMAÇÕES GERAIS;ORGANIZAR DADOS;"A opção ""informações gerais"" possui muitas não possui uma organização, dificultando a busca de informações pelo usuário.";Pensar em uma nova organização;casa com id8;baixo;sim;médio;baixa
+24;LAB.MG;ANÁLISE EXPLORATÓRIA;BUSCA;USABILIDADE;A ferramenta de busca não mostra etiquetas com os filtros que estão sendo aplicados, nem permite a visualização de filtros simultâneos para a busca.;Utilizar modelo similar ao disponibilizado na área de dados abertos;"Atualmente o campo permite a busca de dados do Portal da Transparência até o nível do filtro (ex. programa, função), além da busca padrão por conteúdo estático do site.
+
+ 
+
+As seguintes consultas possuem esse recurso:
+
+·         Despesa
+
+·         Restos a Pagar
+
+·         Despesa com Pessoal (busca por poder/órgão)
+
+·         Receita*
+
+·         Dívida Pública*
+
+·         Repasse a Municípios
+
+·         Remuneração (nome do servidor)";alto;;alto;alta
+25;LAB.MG;ANÁLISE EXPLORATÓRIA;BUSCA;USABILIDADE;Os filtros disponíveis na busca não são compreensíveis.;"Explicar melhor o que são os elementos de navegação : “Contas do Estado”, “Download”, “Categorias” e “Artigos”, pois pode não ficar claro na hora do usuário fazer a busca. No menu de navegação apenas as “categorias” são mostradas em destaque mas na ferramenta de busca outros elementos de navegação são colocados em evidência. 
+ ";;médio;;alto;baixo
+26;LAB.MG;Análise exploratória;FEEDBACK;COMUNICAÇÃO COM O USUÁRIO;Não existe atualmente espaço para o usuário avaliar a disposição das informações e o conteúdo nas páginas do Portal;Inserir avaliação ou pesquisa de satisfação próximo aos conteúdos mais acessados para pegar o feedback;Silviana: Ex. http://www.transparencia.df.gov.br/#/despesas/consulta-dinamica;médio;SIM;3;alta
+27;LAB.MG;ANÁLISE EXPLORATÓRIA;GERAL;CHANGELOG;"As mudanças realizadas no site podem gerar dúvida para o usuário que já esta acostumado a navegar . As principais mudanças no site precisam ser levantadas para pensar em como minimizar dúvidas
+";"Elaborarum plano de comunicação da mudança e criar ""tour"" ao abrir o site pela primeira vez, dando destaque às principais mudanças
+";;baixo;sim;alto;baixo
+28;LAB.MG;ANÁLISE EXPLORATÓRIA;PÁGINA INICIAL;LAYOUT;Não existe menu com o link das páginas mais acessadas;"Criar Menu de acesso rápido e ocultar as demais opções em um menu principal de consultas para organizar melhor e ficar mais rápido de identificar
+";Olhar modelo Portal MG;alto;sim;alto;alta
+29;LAB.MG;ANÁLISE EXPLORATÓRIA;GERAL;TIPOGRAFIA;Fonte dos textos está pequena;Melhorar tamanho e cor da fonte;"Alto - consultas prodemde
+Baixo - Artigos";médio;sim;baixo;baixo
+30;LAB.MG;Análise exploratória;CANAIS DE ATENDIMENTO;COMUNICAÇÃO COM O USUÁRIO;Não há link para o canal do fale conosco em todas as páginas;Inserir Dúvidas? Fale conosco ao final de todas as páginas;Silviana: Não entendi;médio;SIM;2;alta
+31;LAB.MG;Análise exploratória;DADOS ABERTOS;DADOS ABERTOS;Não há uma seção onde seja possível fazer o download de documentos do Portal da Transparência;"Inserir barra de buscas - Categorizar documentos pelo tipo e ao selecionar o tipo, fazer abrir subtítulos com o detalhamento do documento. 
+";Atualizar o Portal de Dados Abertos;2;SIM;3;BAIXA
+32;LAB.MG;Análise exploratória;MENU INICIAL;ACESSABILIDADE;Não existe barra de acessibilidade;Inserir barra de acessibilidade;Olhar modelo Portal MG;médio;sim;alto;baixa
+33;LAB.MG;Análise exploratória;FALE CONOSCO;INCLUSÃO DE INFORMAÇÕES;O formulário do Fale conosco não tem subdivisão de assunto;Verificar a possibilidade de incluir novos assuntos ou temáticas ( importante para análise dos dados).;;3;SIM;3;BAIXA
+34;LAB.MG;Análise exploratória;FALE CONOSCO;INCLUSÃO DE INFORMAÇÕES;Formulário do fale conosco não mostra para o usuário a perspectiva de resposta;Inserir mensagem amigável ao final do preenchimento dando perspectiva de prazo para resposta.;;3;SIM;3;BAIXA
+35;LAB.MG;Análise exploratória;FAQ;USABILIDADE;Não existe link para o dúvidas frequentes próximo ao formulário do fale conosco;Inserir o link de dúvidas frenqtentes na página do formulário do fale conosco e o link do fale conosco próximo ao dúvidas frequentes;;2;SIM;2;ALTA
+36;ENTREVISTA 1;ENTREVISTA;FAQ;INCLUSÃO DE INFORMAÇÕES;;"Informações sobre as empresas públicas, porque não são muitas  e poderia inserir um link para os sites dela se for o caso. 
+Sim, informações sobre as empresas estatais, principalmente as dependentes, recursos do Estado destinados a essas empresas, resultados e execução das metas.";Silviana: Incluir os links da empresas no conteúdo estático;médio;sim;médio;BAIXA
+37;ENTREVISTA 1;ENTREVISTA;Compras e Contratos;LAYOUT;;"Um outro ponto que eu vi em outros portais, é que tem a possibilidade de construir gráfico com variações de preços do mesmo bem e ítem, e ajuda muito a fiscalização do ministério público sobre essas variações. E ajuda muito tmb as comissões que vão precisar de comprar alguma coisa...
+Exemplo: Portal do TCE da Bahia e Governo Federal. Agora das Empresas públicas é que realmente eu sinto muita falta, tem emprtesas como a Metrominas que não tem site e a REdeMinas que está muito ruim a informação. Então poderia migrar essas informações para o Portal, porque as compras já são feitas no portal de compras";;;;;
+38;ENTREVISTA 1;ENTREVISTA;PESQUISA AVANÇADA;FILTROS;;"Inserir  média de preços, que você consegue filtrar o elemento e ver a variação que deve fazer também um link com o da União. 
+(Dar opões para concatenar e resumir os dados de maneiras diferentes a partir da busca ampliada: média, soma de ocorrências...)";;????;????;;
+39;ENTREVISTA 1;ENTREVISTA;COMPRAS - PROGRAMA DE ENFRENTAMENTO A COVID-19;USABILIDADE;Não consegui acessar todos os contratos de covid ( usuária não tinha conhecimento que essa informação não estava disponível no site). Alguns ainda não estavam disponíveis, os que estavam carregados foi possivel baixar sem erro e com facilidade. Em geral ela não olha os contratos porque tinha todos os dados e conseguia pesquisar as publicações;"Mudar a forma de representação da informação para que o usuário entenda se o contrato existe ou não (ex: colocar no campo a seguinte frase "" esse contrato não existe"")";;;;;
+40;ENTREVISTA 1;ENTREVISTA;COMPRAS - PROGRAMA DE ENFRENTAMENTO A COVID-19;FERRAMENTA DE BUSCA;Não pesquisei os contratos relacionados à covid direto pelo caminho da covid porque a pessoa que subiu a informação no sistema  provavemente não colocou com a fonte covid, então eu pesquisava pelos numeros do contrato para não correr o risco de não ter sido registrado nas fontes que estavam relacionados com o covid.;Centralizar as compras realizadas para combate à Pandemia independentemente da fonte utilzada;;???;;;
+41;ENTREVISTA 2;ENTREVISTA;RECEITA;INCLUSÃO DE INFORMAÇÕES;Não existem muitos dados sobre renúncia fiscal;;Verificar viabilidade com o órgão responsável pela informação, SEF. Averiguar se já é uma informação disponibilizada.;;;;
+42;ENTREVISTA 2;ENTREVISTA;INFORMAÇÕES SOCIOECONÔMICAS;INCLUSÃO DE INFORMAÇÕES;"O Portal dá muita ênfase a dados administrativos e quando se trata de dados finalísticos ele acaba direcionando para outros sites do Governo.
+Dificuldade de localizar informações por área e temos poucos campos como informações socioeconômicas. A ênfase das informações são mais na área meio do que na área finalística.";Detalhar mais as informação sobre como o Governo gasta o recurso e como isso é revertido para a população, quais são as entregas;;médio;verificar;alto;BAIXA
+43;ENTREVISTA 2;ENTREVISTA;GERAL;INCLUSÃO DE INFORMAÇÕES;Não consegue pesquisar sobre gasto público não consigo pesquisar uma série histórica, se eu quero pesquisar sobre uma ação/programa que se extendeu por muitos anos e trocou de nome ao longo do tempo ou se uma secretaria foi absorvida eu não consigo pesquisar com facilidade.;Possibilidade de baixar/pesquisar vários anos da execução da despesa em uma mesma consulta.;"Silviana; Criar um conjunto de dados com as alterações ao longo do tempo dos nomes as UO e etc";alto;;alto;alta
+44;ENTREVISTA 2;ENTREVISTA;GERAL;TUTORIAL;O Portal as vezes nos da a impressão que precisamos entender sobre o Governo para saber a forma correta de navegar.;"Detalhar melhor quais informações estão disponibilizadas dentro de cada ""item/assunto"" do site.";;baixo;sim;médio;baixa
+45;ENTREVISTA 2;ENTREVISTA;PESQUISA AVANÇADA;PARTIÇÃO DO ANO;;"Criar tabelas para consulta das mudanças históricas dos órgãos no tempo para facilitar a comparação dos dados no tempo. Possibilitar consulta histórica com os nomes das unidades, independente do órgão.
+";Desmembrado em dois ID;médio;sim;3;baixa
+46;ENTREVISTA 2;ENTREVISTA;FAQ;FERRAMENTA DE BUSCA;Como faz pra saber se a informação está no portal ou não? Tenta o caminho intuitivo ou joga na ferramenta de busca e se não consegue faz o pedido da informação.;"Analisar base do Fale Conosco ""cada solicitação de informação é um fracasso da busca""";"Sugestão dada pelo Entevistado. Importante aumentar cada vez mais a transparencia ativa, em detrimento da passiva
+Silviana: Manual de navegação atualizado e com exemplos";baixo;sim;médio;baixa
+47;ENTREVISTA 2;ENTREVISTA;DESPESA;INCLUSÃO DE INFORMAÇÕES;Sente falta de informações mais qualitativas. Ex: quando pesquisa a função saúde não consegue saber sobre o perfil de alocação dos recursos da saúde, entender como a população tem recebido esse retorno.;;;baixo;???;alto;baixa
+48;ENTREVISTA 2;ENTREVISTA;PESQUISA AVANÇADA;LAYOUT;;Flexibilizar o mecanismo de busca do portal ( agregar informações de varias formas diferentes, exemplo bem velho é o sidra do IBGE vc arrasta os comandos e ele monta a planilha pra você) deixar o cidadão customizar a pesquisa.;Silviana: Alterar a navegabilidade da pesquisa avançada. Exemplo: Transparência Governo Federal;alto;sim;alto;alta
+49;ENTREVISTA 3;ENTREVISTA;DESPESA;NOTA FISCAL;Sempre houve deficiência de mecanismo de informações, mas que dentro do portal tem muita informação interessante e esclarecedora. Acha que o portal deve ser mais utilizado pelo público externo pois recebe demanda de informações que estão disponíveis no portal e isso acaba onerando o trabalho.;;O exemplo citado refere-se ao fornecedor identificar a qual nota fiscal o pagamento foi realizado.;alto;sim;alto;
+50;ENTREVISTA 3;ENTREVISTA;DESPESA;CONSOLIDAR DADOS;O empenho é feito por estimativa, caso falte algum valor no empenho, ele vira restos a pagar. Nesse caso, o histórico do pagamento fica na parte do empenho e também no restos a pagar o que dificulta a pesquisa.;Consolidar as informações de despesas com restos a pagar ou alterar o nome para despesa corrente ( pensar em inserir um link para restos a pagar na página de despesa);;alto;verificar;alto;
+51;ENTREVISTA 3;ENTREVISTA;DESPESA;NOTA FISCAL;Sente falta de informações sobre liquidações e OP para pagamentos. Incluir número da nota fiscal;Quando cai um dinheiro na conta do município, eles ligam para saber de onde veio esse pagamento, se essa informação estivesse disponível no portal facilitaria.;;alto;sim;alto;
+52;ENTREVISTA 3;ENTREVISTA;DESPESA;USABILIDADE;;Mudar o nome de despesa, para despesa corrente.;;baixo;sim;alto;
+53;ENTREVISTA 3;ENTREVISTA;DESPESA;NOTA FISCAL;;Vincular a nota fiscal na pesquisa das depesas, para que o credor não tenha que ligar sempre solicitando.;;alto;sim;alto;
+54;ENTREVISTA 4;ENTREVISTA;PESQUISA AVANÇADA;INCLUSÃO DE CAMPOS;Gosta muito da pesquisa avançada, mas ao inserir o que precisa ela não retorna as informações detalhadas.;A pesquisa avançada deveria possibilitar a navegação mais detalhada das informações, como por exemplo o detalhamento do empenho (formulário de detalhamento). Deveria apresentar além dos dados gerais os dados do empenho;Silviana: Acrescentar o número do empenho ou o link nos valores na pesquisa avançada de modo que o usuário consiga chegar até o formulário de detalhamento;alto;sim;alto;alta
+55;ENTREVISTA 4;ENTREVISTA;DESPESA;INCLUSÃO DE INFORMAÇÕES;"Informações da caixa escolar. Detalhamento maior sobre educação.
+
+
+
+
+";;;alto;sim;alto;
+56;ENTREVISTA 4;ENTREVISTA;DIÁRIAS;INCLUSÃO DE INFORMAÇÕES;A consulta de diárias não possui CPF (acredita que seja erro na base);Acrescentar  o cpf do real beneficiário da diária;Silviana: Melhorar a consulta de diárias.;;;;
+57;ENTREVISTA 4;ENTREVISTA;DESPESA;INCLUSÃO DE INFORMAÇÕES;Fármacia de Minas;;Usuário não detalhou a necessidade;;;;
+58;ENTREVISTA 4;ENTREVISTA;TUTORIAL;INCLUIR INFORMAÇÕES;;Filme, tutorial do conteúdo de cada módulo;;3;SIM;2;BAIXA
+59;ENTREVISTA 4;ENTREVISTA;CONVÊNIOS;INCLUSÃO DE INFORMAÇÕES;Acompanhamento da execução de um convênio (andamento da obra), link para ouvidoria caso identifique alguma irregularidade;"Prestação de contas. 
+EX: Na parte de convênios, inserir fotos para que o cidadão acompanhe o andamentos das obras.";Verificar com a SEGOV se o sistema contem o módulo prestação de contas;alto;;alto;alta
+60;ENTREVISTA 4;ENTREVISTA;OBRAS;INCLUSÃO DE INFORMAÇÕES;;Chamou a atenção o portal da transparência do Espírito Santo, mas não confirmou se foi esse mesmo. Disse que o que chamou a atenção foi a questão do portal dar a possibilidade de Geolocalização de obras.;"Sugestão do Entrevistado
+Silviana: Não localizei no ES";alto;;alto;baixo
+61;ENTREVISTA 4;ENTREVISTA;TUTORIAL;INCLUIR INFORMAÇÕES;;Para que o público externo tenha a facilidade de utilizar o site, inserir um tutorial (vídeo) explicando para que ser e o que vai encontrar em cada aba.;Sugestão do Entrevistado;3;SIM;2;BAIXA
+62;ENTREVISTA 4;ENTREVISTA;PESQUISA AVANÇADA;INCLUSÃO DE INFORMAÇÕES;;Melhorar a pesquisa avançada para que ela traga mais detalhamento nas informações.;"Sugestão do Entrevistado
+Ao gerar o resultado da pesquisa avançada o usuário poder clicar e ser direcionado ao detalhamento da despesa/empeho";alto;sim;alto;alto
+63;ENTREVISTA 5;ENTREVISTA;PESQUISA AVANÇADA;PARTIÇÃO DO ANO;;Pode melhorar cruzamento de informações e a criação de tabelas dinâmicas, possibilitar que dentro do site seja feita essa seleção cruzando informações..;Silviana: Podemos pensar a questão da partição dos anos;médio;sim;alto;baixa
+64;ENTREVISTA 6;ENTREVISTA;MUNICÍPIOS / OUTROS ESTADOS;INCLUSÃO DE INFORMAÇÕES;;Acha que o portal deve conter indicadores que sejam interessantes para a população, como por exemplo indicadores com comparações em relação a outros estados.;;alto;verificar;alto;
+65;ENTREVISTA 6;ENTREVISTA;DÍVIDA;USABILIDADE;Teve dificuldade de encontrar informações sobre dívida pública;Acha que o portal pode ser mais interativo, mas não sabe dizer como.;;;;;
+66;ENTREVISTA 6;ENTREVISTA;DESPESA;INCLUSÃO DE CAMPOS;;Sente falta do código que é utilizado na despesa corrente, pois a dotação orçamentária tem uma sequencia de números para comparação de base de dados.;se aplica a todas as consultas;alto;sim;alto;
+67;ENTREVISTA 6;ENTREVISTA;DADOS ABERTOS;INCLUSÃO DE INFORMAÇÕES;;Inserir as execução das metas físicas e financeiras do PPAG. As informações de metas do PPAG enão estão no formato de base de dados nos demais portais.;Silviana: Disponibilizar os dados em formato aberto;alto;SIM;alto;
+68;ENTREVISTA 6;ENTREVISTA;TUTORIAL;INCLUIR INFORMAÇÕES;;Inserir vídeos explicativos com informações relevantes para a população. Dar mais ênfase ao cidadão.;;3;SIM;2;BAIXA
+69;FORMULÁRIO;FORMULÁRIO;DESPESA;INCLUSÃO DE INFORMAÇÕES;Os pagamentos da sáude efetuados aos municípios poderia ser como no FNS: constar o número da conta bancária que foi depositado, no caso do Estado a resolução de referência, etc.;https://consultafns.saude.gov.br/#/conta-bancaria;;;;;
+70;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;Informações referentes aos pagamentos de aposentados e pensionistas, já que estes dados estão disponíveis na esfera federal e em muitos estados.;;alto;sim;2;alta
+71;FORMULÁRIO;FORMULÁRIO;PESQUISA AVANÇADA;FILTROS;Tenho dificuldade em agregar dados de receita, despesa e dívida pública. Além disso, poderia ser melhorada a agregação de dados sobre a previdência.;BI para facilitar a manipulação dos dados;;baixo;????;alto;baixa
+72;FORMULÁRIO;FORMULÁRIO;GERAL;INCLUIR INFORMAÇÕES;Explicações dos termos técnicos;Inserir explicação próxima ao termo técnico;;2;SIM;2;BAIXA
+73;FORMULÁRIO;FORMULÁRIO;MUNICÍPIOS / OUTROS ESTADOS;INCLUSÃO DE INFORMAÇÕES;;Projetos feitos pelos municípios para receber verbas;Não se aplica;;;;
+74;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;Discriminação de outros valores como vale alimentação ajuda de custo e outros. Acredito que, no que se refere à remuneração dos servidores públicos, deveria constar todos os benefícios que são pagos, incluindo indenizações, honorários, quinquênios, tudo bem esclarecido pois o que aparece para a população em geral não é a realizadade.;Detalhamento das informações;;médio;sim;2;baixa
+75;FORMULÁRIO;FORMULÁRIO;DESPESA;INCLUSÃO DE INFORMAÇÕES;;Gastos por órgão;Usuário não detalhou a necessidade;;;;
+76;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;Informação sobre grau e nível em que o servidor se encontra;;médio;sim;1;baixa
+77;FORMULÁRIO;FORMULÁRIO;PLANEJAMENTO E MONITORAMENTO;ATUALIZAR DADOS;Informações de planejamento e monitoramento do PPAG;Atualizar;Silviana: Manter a informação atualizada;alto;sim;alto;
+78;FORMULÁRIO;FORMULÁRIO;FAQ;INCLUSÃO DE INFORMAÇÕES;;A remuneração do judiciário;Silviana: O Portal possui um link para o TJMG. Podemos colocar essa informação no FAQ. Ex: http://www.portaltransparencia.gov.br/perguntas-frequentes/servidores-publicos;médio;sim;baixo;BAIXA
+79;FORMULÁRIO;FORMULÁRIO;GERAL;DOWLOAD DE DOCUMENTOS;Uma forma de exportar os dados para formatos como xlsx, csv, json ou sql. Isso facilitaria a manipulação dos dados;Inserir orientação para que o usuário encontre essa informação no Portal.;O portal apenas exibe csv, mas apenas da tabela vizualizada. Direcionar o usuári para os dados abertos;alto;sim;alto;alto
+80;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;CONCEITO;Sinto dificuldade de encontrar o que preciso e gostaria que o salario dos servidores fossem mais detalhados,pois aparece o valor mas nem sempre é o mesmo que a soma dos valores indicados nos detalhes.;Inserir explicação sobre o detalhamento dos salários, explicar por quais motivos os valores podem aparecer diferente.;vide ID 93;médio;sim;1;baixa
+81;FORMULÁRIO;FORMULÁRIO;FISCALIZANDO COM TCE;MUNICÍPIOS / OUTROS ESTADOS;Gostaria de ter os dados atualizados! Principalmente os da minha cidade cidade de Francisco Sá -MG , que esta desatualizado desde junho de 2020.;inserir informação orientando sobre quais informações estão disponibilizadas atualmente no Portal sobre os municípios;;;;;
+82;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;Data de admissão no cargo ocupado pelo servidor, na pesquisa de remuneração de pessoal;;baixo;sim;1;baixa
+83;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;Sim, dos servidores que já se aposentou.;vide ID 93;médio;sim;1;baixa
+84;FORMULÁRIO;FORMULÁRIO;TUTORIAL;INCLUIR INFORMAÇÕES;;Conceitos básicos de finanças públicas;;2;SIM;2;BAIXA
+85;FORMULÁRIO;FORMULÁRIO;DESPESA;INCLUSÃO DE INFORMAÇÕES;;Eu acho que deveria para cada recurso ter acesso a resolução para o melhor controle.;;;;;
+86;FORMULÁRIO;FORMULÁRIO;PESQUISA AVANÇADA;CONSOLIDAR DADOS;Ao detalhar a despesa avançada, sinto falta dos valores dos créditos iniciais e autorizados.;Trazer mais informações para acompanhamento da execução da despesa. Mostrar para o usuário onde estão estas informações no Portal;;3;SIM;2;BAIXA
+87;FORMULÁRIO;FORMULÁRIO;DADOS ABERTOS;DADOS ABERTOS;;É preciso ampliar o leque de dados abertos publicados.;;;;;
+88;FORMULÁRIO;FORMULÁRIO;CONVÊNIOS;INCLUSÃO DE INFORMAÇÕES;;Recursos recebidos do Governo Federal e Distribuição-Repasses aos Governos Municipais.;Silviana: As consultas de despesas e receita exibe a informação, mas é preciso ter conhecimento sobre o tema;;;;
+89;FORMULÁRIO;FORMULÁRIO;DADOS ABERTOS;DADOS ABERTOS;;"Bases completas (para download) na área ""dados abertos"" referentes às informações que já estão disponíveis para consulta em outras áreas do portal (receita, despesa, compras, convênios, etc).";;;;;
+90;FORMULÁRIO;FORMULÁRIO;FORMULÁRIO DE DETALHAMENTO;TIPOGRAFIA;Sinto falta dos contratos em teor integral, a exemplo do que é disponibilizado em SP.;Deixar claro que essa informação não está no Portal;"Silviana: Compras e Contratos: O Portal apresenta a cópia integral do contrato. 
+Melhorar a forma de exibição do link para exibir a informação.";;;;
+91;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;"Inserir local de trabalho onde aparece ""informação sigilosa"", nao sei porque se as infomaçoes tem que ser de dominio público.";ALÉM DA ESFERA DCTA;não se aplica;não se aplica;não se aplica;não se aplica
+92;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;Agora a lotação da maioria dos servidores está como sigilosa, o que faz com que torne mais lento o processo de encontra-los. Precisamos expedir ofício nesse caso.;;ALÉM DA ESFERA DCTA;não se aplica;não se aplica;não se aplica;não se aplica
+93;FORMULÁRIO;FORMULÁRIO;PESSOAL;INCLUSÃO DE INFORMAÇÕES;;Quantitativo de servidores por órgão;Silviana: Quantitativo independente da composição remuneratória;médio;sim;alto;baixa
+94;FORMULÁRIO;;PESSOAL;INCLUSÃO DE INFORMAÇÕES;;Informações sobre quantitativo de pessoal efetivo, cargos por classe na carreira.;vide ID 93;médio;sim;alto;baixa
+95;FORMULÁRIO;FORMULÁRIO;GESTÃO AMBIENTAL;INCLUSÃO DE INFORMAÇÕES;;Informações sobre gestão ambiental;;médio;verificar;alto;BAIXA
+96;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;No campo dos descontos, deveria ser mais claro, como por exemplo, IPSEMG e Imposto de Renda;vide ID 93;médio;sim;1;baixa
+97;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;Colocar remuneração de servidores públicos inativos;vide ID 93;médio;sim;1;baixa
+98;FORMULÁRIO;FORMULÁRIO;GERAL;LAYOUT;;Melhoria na agregação e transparência dos dados;Não se aplica;;;;
+99;FORMULÁRIO;FORMULÁRIO;TUTORIAL;INCLUIR INFORMAÇÕES;;Explicação dos termos desconhecidos ou exemplos de cada item;;2;SIM;2;BAIXA
+100;FORMULÁRIO;FORMULÁRIO;CONVÊNIOS;MUNICÍPIOS / OUTROS ESTADOS;;Sim, um link com os projetos dos municípios (convênios);;1;NÃO;2;BAIXA
+101;FORMULÁRIO;FORMULÁRIO;GERAL;LAYOUT;;Ter um layout mais intuitivo;Não se aplica;;;;
+102;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;Colocar informação sobre grau e nível em que o servidor se encontra;;1;SIM;3;BAIXA
+103;FORMULÁRIO;FORMULÁRIO;GERAL;LAYOUT;;Melhorar tipos de gráficos, uso de cores nos gráficos.;;baixo;SIM;alto;BAIXA
+104;FORMULÁRIO;FORMULÁRIO;PÁGINA INICIAL;FERRAMENTA DE BUSCA;;Mecanismos de busca mais eficiente, como número de contratos, convênios, respectivos atos de ordenação de despesas etc;Melhorar o campo busca de forma que usuário consiga localizar os dados de forma geral dentro do Portal;baixo;sim;alto;alta
+105;FORMULÁRIO;FORMULÁRIO;TUTORIAL;INCLUIR INFORMAÇÕES;Os filtros são EXTREMAMENTE técnicos e apenas peritos em orçamento conseguem navegar. Os dados não são fáceis e quando questionamos a SEF eles nos respondem que não é responsabilidade deles os dados orçamentários;Simplificar a linguagem, melhorar os filtros padronizando linguagem. Averiguar necessidade de inserir explicações e ajudas;;2;SIM;2;BAIXA
+106;FORMULÁRIO;FORMULÁRIO;RESTOS A PAGAR;CONSOLIDAR DADOS;"Os dados apresentados em restos a pagar não condizem com os relatórios apresentados no RREO; não há dos dados de restos a pagar dos poderes além do executivo";;;;;;
+107;FORMULÁRIO;;CONTEÚDO ESTÁTICO;CORRIGIR DADOS;;Revisar o item Legislação de Carreira, pois o link que remete às tabelas de vencimento básico (http://www.planejamento.mg.gov.br/pagina/gestao-de-pessoas/carreiras-e-remuneracao/tabelas-de-vencimento-basico), grupo XIII - Fazenda, o pdf anexado à página não exibe a tabela respectiva à carreira de auditor fiscal, por exemplo, mas somente Procurador do Estado e Advogado Autárquico.;Informar a area responsável para atualização;médio;sim;baixo;
+108;FORMULÁRIO;FORMULÁRIO;???;INCLUSÃO DE INFORMAÇÕES;;Seria interessante informações sobre previsão de aposentadorias e quantitativo de cargos vagos.;;médio;sim;alto;BAIXA
+109;FORMULÁRIO;FORMULÁRIO;PÁGINA INICIAL;FERRAMENTA DE BUSCA;;"Melhoria no campo de pesquisas. Poderíamos pesquisar o que desejamos saber logo na primeira página.
+";;;;;
+110;FORMULÁRIO;FORMULÁRIO;PÁGINA INICIAL;FERRAMENTA DE BUSCA;;Melhorar mecanismo de filtragem por palavras chave.;;;;;
+111;FORMULÁRIO;FORMULÁRIO;PORTAL DE TRANSPARÊNCIA;INTEGRAÇÃO;;Integração com o mg app cidadão;;;;;
+112;FORMULÁRIO;FORMULÁRIO;PESQUISA AVANÇADA;PARTIÇÃO DO ANO;;Possibilidade de baixar vários anos da execução da despesa em uma mesma consulta.;;alto;sim;alto;alta
+113;FORMULÁRIO;FORMULÁRIO;GERAL;LEIAUTE;;Ao rolar a barra para olhar meses anteriores, a aba ficasse fixa, como era anteriormente.;"congelar cabeçalho
+Silviana: não consegui identificar em qual consulta";baixo;SIM;alto;BAIXA
+114;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;Gostaria que expusessem o valor que recebemos que difere do contra cheque com o do portal da transparencia sendo este maior. (Inserir explicações);vide ID 74. Explicação consta no FAQ;médio;sim;1;baixa
+115;FORMULÁRIO;FORMULÁRIO;TUTORIAL;INCLUIR INFORMAÇÕES;;Linguagem mais simples.;;2;SIM;2;BAIXA
+116;FORMULÁRIO;FORMULÁRIO;PÁGINA INICIAL;FERRAMENTA DE BUSCA;;"O campo de pesquisa para ""busca"" geral poderia aceitar mais de um critério (ex: palavra para espaço e uma para tempo)";;;;;
+117;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;FILTROS;;Dividir a remuneração por orgão de lotação, de preferência em PDF;Silviana: Pode ser filtrada de acordo com  órgão. O Portal já apreseta a opção de extrair em PDF, mas conforme preconiza a legislação a extração em formato aberto é o mais adequado;não se aplica;não se aplica;não se aplica;não se aplica
+118;FORMULÁRIO;FORMULÁRIO;PESQUISA BÁSICA;FILTROS;;Avaliar se não seria interessante possibilitar também, no campo busca, o acesos às informações por sigla de órgão/entidade.;Silviana: Acredito que o usuário esteja falando dos campos 'filtro' das pesquisas avançadas;;;;
+119;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;O real valor de cada benefício recebido pelo servidor apontado, discriminado valor do salário, valor do ADVEB, valo do vale alimentação separadamente. Apontando o valor de que se trata da maneira como está não esclarece, não fica claro, você sabe que  servidor recebe FGD, mas qual o valor?por exemplo.;vide ID 74;médio;sim;1;baixa
+120;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;Gostaria que as gratificações dos servidores fossem descritas individualmente.;vide ID 74;médio;sim;1;baixa
+121;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;Também, gostaria de que constasse o quanto que o servidor já juntou da sua contribuição para a aposentadoria a longo de toda a sua carreira, devidamente corrigido, bem como a parte do Estado.;Informação Pessoal;não se aplica;não se aplica;não se aplica;não se aplica
+122;FORMULÁRIO;FORMULÁRIO;PLANEJAMENTO E MONITORAMENTO;BENCHMARKING;;Destinamento de recursos financeiros por secretaria, já viram o portal de Salvador? É o melhor do país;;;;;
+123;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;Compatilidade do valor base que consta no contra cheque;vide ID 74;médio;sim;1;baixa
+124;FORMULÁRIO;FORMULÁRIO;FISCALIZANDO COM TCE;MUNICÍPIOS / OUTROS ESTADOS;;A data de atualização das informações. Muitas Prefeituras estão com as informações da gestão antiga.;Dados do Fiscalizando com o TCE;;;;
+125;FORMULÁRIO;;PESSOAL;INCLUSÃO DE INFORMAÇÕES;;Informação de servidores que não foram exonerados, cedidos (à disposição), LIP que não constam aqui no Portal de Transparência;vide ID 74;médio;sim;alto;baixa
+126;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;Dados dos Aposentados;vide ID 74;médio;sim;alto;baixa
+127;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;Quantitativo de inativos (aposentados) não consta essa informação e como sai recursos do Tesouro estadual para complementação desses pagamentos seria útil a sociedade saber.;vide ID 74;médio;sim;alto;baixa
+128;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;Acredito que, no que se refere à remuneração dos servidores públicos, deveria constar todos os benefícios que são pagos, incluindo indenizações, honorários, quinquênios, tudo bem esclarecido pois o que aparece para a população em geral não é a realizadade.;"vide ID 74. 
+Detalhar informações";médio;sim;1;baixa
+129;FORMULÁRIO;FORMULÁRIO;FAQ;INCLUSÃO DE INFORMAÇÕES;;Informações sobre as empresas estatais, principalmente as dependentes, recursos do Estado destinados a essas empresas, resultados e execução das metas.;;médio;sim;alto;BAIXA
+130;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;Sim. Remunerações de servidores lançadas mensalmente, pelo menos. Informações sobre quantitativo de pessoal efetivo, cargos cargos por classe na carreira.;vide ID 70;alto;sim;alto;alta
+131;FORMULÁRIO;FORMULÁRIO;DESPESA;INCLUSÃO DE INFORMAÇÕES;;Acrescentar a identificação da Resolução e da conta bancaria do beneficiário em todos os empenhos.;;;;;
+132;FORMULÁRIO;FORMULÁRIO;RESTOS A PAGAR;TUTORIAL;;Diferenciação do restos a pagar processados dos não processados, e incorporação somente dos processados no cálculo de dívida;;3;SIM;3;ALTA
+133;FORMULÁRIO;FORMULÁRIO;CEAPE;INCLUSÃO DE INFORMAÇÕES;;Servidores que já tiveram punição na LEI 869/52, não sei se tem essa informação lá. Sugestão de servidores para maior controle dos gastos públicos no portal, já quem são os que sabem aonde as falhas estão.;Dados já consta no PdT. Pensa em melhor essa informação de forma que ela fique mais visivel;médio;sim;médio;baixa
+134;FORMULÁRIO;FORMULÁRIO;CONVÊNIOS;INCLUSÃO DE INFORMAÇÕES;;Recursos recebidos do Governo Federal e Distribuição-Repasses aos Governos Municipais.;Silviana: As consultas de despesas e receita exibe a informação, mas é preciso ter conhecimento sobre o tema;;;;
+135;FORMULÁRIO;FORMULÁRIO;DADOS ABERTOS;DADOS ABERTOS;;API, com a finalidade de permitir a extração automatizada de dados. Exemplo: http://www.portaltransparencia.gov.br/api-de-dados;;;;;
+136;FORMULÁRIO;FORMULÁRIO;COMPRAS E CONTRATOS;INCLUSÃO DE CAMPOS;;Que fosse apresentadas mais informações em forma de gráficos, comparativos de preços médios dos bens e produtos adquiridos pelo Estado, principalmente, os com valor significativo e que as compras são efetuadas com frequência.;;;;;
+137;FORMULÁRIO;FORMULÁRIO;PESSOAL;INCLUSÃO DE INFORMAÇÕES;;Servidores que possuem CPF em empresas talvez, não sei se há esta informação no portal.;informação pessoal;não se aplica;não se aplica;não se aplica;não se aplica
+138;FORMULÁRIO;FORMULÁRIO;TUTORIAL;INCLUIR INFORMAÇÕES;;Praticidade na informaçao do gerenciamento ,dos recursos financeiros passados aos municípios.;;1;SIM;2;BAIXA
+139;FORMULÁRIO;FORMULÁRIO;DESPESA;INCLUSÃO DE INFORMAÇÕES;Ausência de informações primordiais como identificação da Resolução referente aos recursos empenhados e falta de demonstração da conta bancária onde o recurso foi creditado no beneficiário.;;;2;SIM;3;BAIXA
+140;FORMULÁRIO;FORMULÁRIO;FAQ;INCLUSÃO DE INFORMAÇÕES;Remuneração servidores da ALMG;;Silviana: O Portal possui um link para o Assembleia. Podemos colocar essa informação no FAQ. Ex: http://www.portaltransparencia.gov.br/perguntas-frequentes/servidores-publicos;médio;sim;baixo;BAIXA
+141;FORMULÁRIO;FORMULÁRIO;COVID;INCLUSÃO DE INFORMAÇÕES;Aquisição de vacinas para covid.;;;;;;
+142;FORMULÁRIO;FORMULÁRIO;EMENDAS;INCLUSÃO DE INFORMAÇÕES;Objeto das emendas;;Silviana: Seria a mesma coisa de objeto do gasto da Emeda? Se sim, essa informação se está na consulta de emendas. Formulário de Detalhamentp;baixo;sim;alto;-
+143;FORMULÁRIO;FORMULÁRIO;TRANSFERÊNCIAS DE IMPOSTOS;INCLUSÃO DE INFORMAÇÕES;Fundo de Participação das Prefeituras de trinta dias,ou seja mensal.;;;1;NÃO;3;BAIXA
+144;FORMULÁRIO;FORMULÁRIO;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;;Gostaria que as gratificações dos servidores fossem descritas individualmente.;vide ID 70;alto;sim;2;alta
+145;FORMULÁRIO;FORMULÁRIO;DESPESA;NOTA FISCAL;;Uso o Portal para verificar se as notas emitidas, pelos FHEMIG's, Polícia Militar, Fundo Estadual de Saúde estão liquidadas e pagamentos. Poderiam informar previsão de pagamento e informar os números das notas que foram liquidadas/pagas, facilitaria muito a conciliação na hora de fazer baixa dos pagamentos já que temos vários clientes e no extrato só vem identificado como Estado de Minas Gerais.;;;;;
+146;FORMULÁRIO;FORMULÁRIO;DADOS ABERTOS;DADOS ABERTOS;O portal de dados abertos tem poucas informações.;;;;;;
+147;FORMULÁRIO;FORMULÁRIO;PESQUISA AVANÇADA;PARTIÇÃO DO ANO;;Na pesquisa avançada ao escolher o período das informações, os campos de início e fim poderiam ser abertos e não limitados a anos fechados. Além do mais, poderia ser colocada a frequência que se gostaria de ter os dados (mensal, trimestral e anual, por exemplo). Dessa forma eu poderia obter rapidamente dados que me interessam de vários anos diferentes, na frequência que eu gostaria, com maior facilidade.;Silviana: Partição dos anos;alto;sim;alto;alta
+148;FORMULÁRIO;FORMULÁRIO;TUTORIAL;INCLUIR INFORMAÇÕES;;Glossário ou dicionário de informações (como detalhamento das fontes de receita, das classificações de despesa e receita, categorias, naturezas, funções, etc.);;2;SIM;2;BAIXA
+149;FORMULÁRIO;FORMULÁRIO;RECEITA;INCLUSÃO DE INFORMAÇÕES;;Se for possível, detalhamento regional e setorial dos dados (como ICMS recolhido por CNAE, ICMS recolhido por município, gastos por município ou microrregião);No site da SEF possui a informação, mas o link não está funcionando http://www.fazenda.mg.gov.br/governo/receita_estado/evolucao_anual/;médio;sim;alto;baixa
+150;FORMULÁRIO;FORMULÁRIO;GERAL;LAYOUT;;Ter opção de filtros no cabeçalho das colunas seria muito útil;;baixo;;alto;baixa
+151;LABMG;;MENU;MENU INTERNO;Usuários não utilizam o Menu interno para acessar as opções de menu de acesso rapido, sempre retornam à página inicial;Alterar o layout de MENU;melhorar o layout do site, importante, mas não trará melhoria significativa nas consultas e nas buscas;baixo;sim;3;alto
+152;TESTE 1;identifique quais servidores têm cargo em comissão na segov ( tarefa concluída quando baixa a planilha);REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;Dificuldade de identificar que é necessário baixar a planilha para ter acesso a informação sobre quais servidores tem cargo em comissão na SEGOV;Informar ao usuário que para ter acesso a essa informação é necessário baixar a palnilha;;alto;sim;1;alta
+153;TESTE 1;Despesa:Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de locação para o Estado em 2021.;PESQUISA AVANÇADA;USABILIDADE;Usuário tentou encontrar a informação a partir da pesquisa básica e teve dificuldade  para entender todos os campos do formulário;Deixar as opções disponíveis em busca avançada como uma expansão da busca básica, inserir link para o glossário nos itens do fomulário;;;;;
+154;TESTE 1;Convênios: Encontre no Portal o convênio 9210853 firmado em 2019 com o INSTITUTO JURÍDICO PARA EFETIVAÇÃO DA CIDADANIA E SAÚDE;PESQUISA BÁSICA;FILTROS;Usuário não consegue filtrar pelo número do convênio na pesquisa básica.;;Silviana: O mesmo ocorre para a busca dos contratos;alto;;alto;
+155;TESTE 1;Convênios: Encontre no Portal o convênio 9210853 firmado em 2019 com o INSTITUTO JURÍDICO PARA EFETIVAÇÃO DA CIDADANIA E SAÚDE;PESQUISA AVANÇADA;TIPOGRAFIA;A pesquisa não retorna nenhum resultado quando o nome do convenete é escrito com acento, somente reconhece quando digita sem acento.;Corrigir;;alto;;alto;
+156;TESTE 1;Despesa: Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de locação para o Estado em 2021.;PESQUISA AVANÇADA;LAYOUT;Achou estranho a formatação do formulário, não gostou da leitura ser direita-esquerda;Alterar a forma de exibição do formulário;Silviana: Os formulários devem ter uma coluna . Ex. https://medium.com/nextux/form-design-best-practices-9525c321d759;baixo;sim;alto;
+157;TESTE 1;Obter a lista de todos os Servidores  com cargo em comissao da SEGOV  em janeiro 2021;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;"Seria mais fácil se as informações aparececem na tela ao invés de ter que baixar
+";Verificar a possibilidade de retornar a pesquisa na tela, sem necessidade de baixar arquivo ou informar ao usuário que é necessário baixar;;médio;sim;2;baixa
+158;TESTE 1;"Compras e Contratos -Encontre no Portal da Transparência por meio da pesquisa avançada a cópia integral do Contrato 9214029, de 2019, cujo objeto é a prestação, pela Localiza Rent A Car S/A, contratação de prestação de serviço de transporte mediante locação de automóveis para transporte de passageiros
+";PESQUISA AVANÇADA;LAYOUT;"Usuário tentou realizar a tarefa pelo nome do contratado.
+Não obteve resultado, pois não clicou na caixinha (...) para selecionar  o nome.
+Achou pouco intuitivo essa forma de busca, ainda mais que apenas essa campo apresenta essa opção";Padronizar os campo da pesquisa avançada;;médio;verificar;alto;alta
+159;TESTE 1;"Compras e Contratos -Encontre no Portal da Transparência por meio da pesquisa avançada a cópia integral do Contrato 9214029, de 2019, cujo objeto é a prestação, pela Localiza Rent A Car S/A, contratação de prestação de serviço de transporte mediante locação de automóveis para transporte de passageiros
+";PESQUISA AVANÇADA;PARTIÇÃO DO ANO;Não gostou da opção de ter que selecionar o ano, pois caso o usuário não sabia o ano ele não consegue encontrar a informação;;Silviana: Possibilitar que o usuário encontre a informação independente do ano selecinado. Ex. Nº do contrato / Nº do Convênio e etc;alto;verificar;alto;alta
+160;TESTE 2;"Obter a lista de todos os Servidores da Administração Pública Estadual com Cargo efetivo de Auditor Fiscal da Receita e o salário de algum deles em janeiro 2021
+";PESSOAL;INCLUSÃO DE INFORMAÇÕES;Usuário tentou utilizar a busca da página inicial e a busca livre e não encontrou nenhuma informação que auxiliasse na busca.;;(para essa sugestão podemos inserir a explicação de como fazer a pesquisa como resultado a ser ancorado na busca);médio;sim;1;alta
+161;TESTE 2;;PESQUISA AVANÇADA;USABILIDADE;Deveria haver maior ênfase no filtro avançado já que ele é o principal meio de busca das informações. Além disso, o filtro simples não permite encontrar muitas coisas.;;Silviana: Dar mais destaque ao campo pesquisa avançada;alto;sim;alto;alta
+162;TESTE 3;;PÁGINA INICIAL;TIPOGRAFIA;"Fonte dos textos está muito pequena 
+";Aumentar fontes usar letras menos finas;;Alto;sim;médio;baixa
+163;TESTE 3;;PÁGINA INICIAL;INCLUSÃO DE INFORMAÇÕES;"
+Vídeos da tela inicial não possuem nenhuma descrição que facilite enterder qual o conteúdo deles.";Inserir texto evidenciando o assunto dos vídeos;;baixo;sim;médio;baixo
+164;TESTE 3;;PÁGINA INICIAL;TIPOGRAFIA;Muito texto embaralhado na parte de nóticias;;Acho que as notícias deveriam estar mais em destaque;Alto;sim;alto;baixo
+165;TESTE 3;"Obter a lista de todos os Servidores da Administração Pública Estadual com Cargo efetivo de Auditor Fiscal da Receita e o salário de algum deles em janeiro 2021
+";PESSOAL;INCLUSÃO DE INFORMAÇÕES;"A consulta Despesa Pessoal ocasionou confusão na usuária
+Segundo a usuária ela teve ir na lista de remuneração para encontrar a lista .O ideial seria a lista dos servidores estar disponível.";;vide ID 70;alto;sim;2;alta
+166;TESTE 3;;PÁGINA INICIAL;LAYOUT;o menu 'estou procurando por', muito escondido (barra de pesquisa);destacar o texto e aumentar o tamanho da barra;;Alto;sim;alto;baixo
+167;TESTE 3;Obter a lista de todos os Servidores da Administração Pública Estadual com Cargo efetivo de Auditor Fiscal da Receita e o salário de algum deles em janeiro 2022;PESSOAL;INCLUSÃO DE INFORMAÇÕES;Usuário entendeu que na opção remuneração de pessoal estaria somente a remuneração individual não a listagem de um grupo ( usuária fez a pesquisa em despesa com pessoal, desistiu da pesquisa e jogou na busca, não obtendo sucesso na pesquisa);;(não há sugestão aqui a ser avaliada, somente o relato da dificudade/confusão);NA;NA;NA;NA
+168;TESTE 3;"Compras e Contratos -Encontre no Portal da Transparência por meio da pesquisa avançada a cópia integral do Contrato 9214029, de 2019, cujo objeto é a prestação, pela Localiza Rent A Car S/A, contratação de prestação de serviço de transporte mediante locação de automóveis para transporte de passageiros
+";PESQUISA AVANÇADA;USABILIDADE;O formulário da pesquisa avançada apaga as informações escritas nos campos sempre que clica em pesquisar;Formulário não apagar o que o usuário digitou até que ele saia da página, pois caso queira refazer a busca não precisa digita todas as informações novamente;Silviana: Fiz o teste em compras e contratos e não ocorreu isso;não se aplica;não se aplica;não se aplica;não se aplica
+169;TESTE 3;"Encontre no Portal da Transparência por meio da pesquisa avançada a cópia integral do Contrato 9214029, de 2019, cujo objeto é a prestação, pela Localiza Rent A Car S/A, contratação de prestação de serviço de transporte mediante locação de automóveis para transporte de passageiros
+";FORMULÁRIO DE DETALHAMENTO;TIPOGRAFIA;Dificuldade para achar a cópia integral do contrato, usuária não identificou que o número do contrato era um hiperlink;Aumentar o tamanho da fonte e sublinhar com traço para evidenciar que é um link;;médio;sim;alto;alta
+170;TESTE 3;Despesa:Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de locação para o Estado em 2021.;PESQUISA AVANÇADA;CONCEITO;Usuários não tem conhecimento sobre o significado de todos os termos do formulário;Colocar link para glossário ou inserir ícone com explicação;"Silviana: Inserir tooltip em cada item do formulário ou colocar o link do glossário próximo ao formulário.
+Ex. SP- Municipio (http://rsp.prefeitura.sp.gov.br/default.aspx?rsview=Despesa231_RptClassConta&Prj=SJ2224)";baixo;sim;alto;alta
+171;TESTE 3;"Compras e Contratos:Encontre no Portal da Transparência por meio da pesquisa avançada a cópia integral do Contrato 9214029, de 2019, cujo objeto é a prestação, pela Localiza Rent A Car S/A, contratação de prestação de serviço de transporte mediante locação de automóveis para transporte de passageiros
+";PESQUISA AVANÇADA;LAYOUT;Usuária teve dificuldade de encontrar o campo para alterar o ano;É possivel deixar o ano como primeira opção e o restante do formulário fechado, abrir as outras opções omente depois de selecionar o ano ?;Melhorar a exibição do formulário;baixo;sim;alto;
+172;TESTE 3;"Obter a lista dos servidores expulsos do Serviço Público Estadual.
+";CEAPE;ORGANIZAR DADOS;Teve dificuldade de encontrar a listagem pois os servidores excluídos não são mencionados na descrição de nenhuma das opções do Menu de acesso rápido;"Criar uma categoria para essa informação dentro de pessoal ou inserir essa informação na descrição do item no ""Pessoal""";Usuário digitou na busca da página inicial o termo exonerados e não encontrou nada, depois difitou excluídos e  encontrou uma notícia com a informação.;1;sim;1;baixa
+173;TESTE 3;"Obter a lista dos servidores expulsos do Serviço Público Estadual.
+";CEAPE;ORGANIZAR DADOS;Página com muito texto e sem destaque para as innormações principais;Reduzir os textos e destacar palavras chave;Foco da atenção fica concentrado nas informações que estão destacadas nos ícones do Menu de acesso rápido;1;sim;1;baixa
+174;TESTE 3;"Compras e Contratos -Encontre no Portal da Transparência por meio da pesquisa avançada a cópia integral do Contrato 9214029, de 2019, cujo objeto é a prestação, pela Localiza Rent A Car S/A, contratação de prestação de serviço de transporte mediante locação de automóveis para transporte de passageiros
+";PESQUISA AVANÇADA;TIPOGRAFIA;Não achou intuitivo que deveria clicar no numero do contrato para exibir mais informações;;"Gabriel:Relato quando o resultado da pesquisa básica foi exibido. melhorar a pesquisa, como critério adotado acima acho importante
+Silviana: Identificar que é possível o usuário clicar no ícone para exibir mais detalhes";médio;sim;alto;alta
+175;TESTE 3;"Compras e Contratos -Encontre no Portal da Transparência por meio da pesquisa avançada a cópia integral do Contrato 9214029, de 2019, cujo objeto é a prestação, pela Localiza Rent A Car S/A, contratação de prestação de serviço de transporte mediante locação de automóveis para transporte de passageiros
+";PESQUISA AVANÇADA;PARTIÇÃO DO ANO;Achou ruim ter que selecionar o ano para encontrar o que procurava;;Silviana: Localizar a informação independente do ano;médio;verificar;alto;alta
+176;TESTE 3;"Compras e Contratos: Encontre no Portal da Transparência por meio da pesquisa avançada a cópia integral do Contrato 9214029, de 2019, cujo objeto é a prestação, pela Localiza Rent A Car S/A, contratação de prestação de serviço de transporte mediante locação de automóveis para transporte de passageiros
+";FORMULÁRIO DE DETALHAMENTO;TIPOGRAFIA;Dificuldade em dentificar o local para clicar no link para fazer o download do contrato não é claro;;;médio;sim;alto;alta
+177;TESTE 3;Convênios: Encontre no Portal o convênio 9210853 firmado em 2019 com o INSTITUTO JURÍDICO PARA EFETIVAÇÃO DA CIDADANIA E SAÚDE;PESQUISA AVANÇADA;FILTROS;"A quantidade de campos com o número do convênio confunde o usuário.
+(Número convênio / SIAFI e Número convênio /SIGCON ";;Melhorar a descrição dos campos e ou incluir o glossário, como sugerido acima. E definir uma hierarquia para os filtros mais utilizados;baixo;sim;alto;alta
+178;TESTE 3;Convênios: Encontre no Portal o convênio 9210853 firmado em 2019 com o INSTITUTO JURÍDICO PARA EFETIVAÇÃO DA CIDADANIA E SAÚDE;PESQUISA AVANÇADA;PARTIÇÃO DO ANO;Não achou bom a opção de ter que selecionar o ano para encontrar a informação.;Poder procurar a informação em todos os anos de uma só vez;Silviana: Possibilitar que o usuário encontre a informação independente do ano selecinado. Ex. Nº do contrato / Nº do Convênio e etc;médio;verificar;alto;alta
+179;TESTE 3;;MANUAL DO USUÁRIO;ORGANIZAR DADOS;Não leria tudo dentro do manual de navegação, daria um CTRL F e digitaria o que procura. Considera esse tipo de leitura cansativa;;;1;SIM;3;BAIXA
+180;TESTE 3;;PESQUISA AVANÇADA;USABILIDADE;Usuária teve dificuldade em gerar os dados, pois não sabia que deveria clicar em 'exibir' para o Portal apresentar a informação que desejada;Alternativa para quem não tem conhecimento, talvez mudança na parte de pesquisa avançada, melhorar a busca pois o retorno foi difícil.;Silviana: Melhorar a forma que usuário seleciona os dados. Como default deveria vir todos marcados.;médio;sim;alto;alta
+181;TESTE 4;;MENU;MENU INTERNO;Usuário teve dificuldade de ler as opções do menu e sugeriu que fosse um menu aberto e abaixo do título da página;Alterar layout de menu;melhorar o layout do site, importante, mas não trará melhoria significativa nas consultas e nas buscas;baixo;sim;1;alto
+182;TESTE 4;;PÁGINA INICIAL;ORGANIZAR DADOS;Usuário achou que a barra referente ao formulário era um cookie e queria ter a opção de fechar;;Não se aplica;;;;
+183;TESTE 4;;PÁGINA INICIAL;LAYOUT;Usuário achou que estava tudo muito vermelho e o contraste com a letra branca dificultava a leitura das informações.;;;Alto;sim;Alto;Alto
+184;TESTE 4;Obter a lista de todos os Servidores da Administração Pública Estadual com Cargo efetivo de Auditor Fiscal da Receita e o salário de algum deles em janeiro 2021;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;Falta de informações que identiquei em qual nível o servidor está na carreira, pois identicou servidores a mesma carreira com diversas remunerações distintas;Verificar possibilidade de inserir mais informações na planilha html;vide ID 70;alto;sim;2;alta
+185;TESTE 4;Obter a lista de todos os Servidores da Administração Pública Estadual com Cargo efetivo de Auditor Fiscal da Receita e o salário de algum deles em janeiro 2022;PESSOAL;INCLUSÃO DE INFORMAÇÕES;Usuário sentiu falta de uma outra consulta que desse acesso rápido a lista de servidores de uma determina carreira, sem informar a remuneração.;Incluir na parte de pessoal alguma opção relacionada a carreira ( lista de servdiores pra cada carreira, legislação de referencia, cargo, número de servidores independente se o servidor recebeu pagamento ou não.;A tarefa foi concluída por meio do campo busca do portal;médio;sim;1;baixa
+186;TESTE 4;"Despesa: Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de  locação  para o Estado em 2021. 
+";PESQUISA AVANÇADA;INCLUSÃO DE CAMPOS;Planilha html não tem linha com total dos valores;Inserir uma linha com o total na planilha, somando o valor dos dados apresentados e também a data se for possível;"Silviana: Acrescentar o somatório na pesquisa avançada e acrescentar a data/ano no resultado.
+- Colunas redimensionáveis; Paginação na parte superior";médio;sim;alto;alto
+187;TESTE 4;"Despesa: Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de  locação  para o Estado em 2021. 
+";PESQUISA AVANÇADA;USABILIDADE;"Usuário teve dificuldade de encontrar o botão de pesquisa avançada. Os botões ""pesquisa"" e ""pesquisa avançada"" estão muito perto e com a mesma fonte.";Alterar o layout do botão para diferenciar ou deixar a opção de busca avançada como uma extensão da pesquisa básica ( criar uma caixa que se expande ao clicar com as opções da busca avançada).;Diferenciar os tipos de botão;alto;sim;alto;alta
+188;TESTE 4;"Despesa: Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de  locação  para o Estado em 2021. 
+";CONTEÚDO ESTÁTICO;INCLUSÃO DE INFORMAÇÕES;"Usuário sentiu falta da página com informações introdutórias no item ""despesa"".";Usuário sentiu falta de um texto artigo, assim como ocorre na consulta de compras e contratos. Facilita o entendimento;Incluir informações/ artigo em todas as consultas;baixo;sim;médio;alta
+189;TESTE 4;;PÁGINA INICIAL;LAYOUT;Dificuldade de entender os ícones que ficam ao final da página. Difícil de enxergar e de entender pra que servem ( ligue minas, ouvidoria, etc).;Inserir um tooltip explicando o que são cada um deles e aumentar o tamanho do ícone;;médio;SIM;alto;BAIXA
+190;TESTE 4;;DADOS ABERTOS;DADOS ABERTOS;Usuário achou estranhou ‘dados  abertos’ ser uma categoria, pois a princípio todos os dados deveriam ser abertos;"Substituir o nome do menu ""dados abertos"" por ""repositorio de dados"" ou ""conjunto de dados""";;;;;
+191;TESTE 4;Patrimônio:Localize no Portal da Transparência a lista de bens por tipo de proprietário (Terceiros ) do Estado de Minas Gerais;PESQUISA AVANÇADA;FILTROS;"Usuário sentiu falta de ter a opção de acrescentar mais informaões na pesquisa ( opção ""exibir"") básica";Marcações da pesquisa avançada (controle do que se mostra na tabela) poderia estar disponível na pesquisa básica, ou talvez a possibilidade de adição de colunas;Usuário relatou que gostaria de acrescentar mais filtros na pesquisa básica. Que ela não fosse estática.;3;sim;alto;alta
+192;TESTE 4;Convênios: Encontre no Portal o convênio 9210853 firmado em 2019 com o INSTITUTO JURÍDICO PARA EFETIVAÇÃO DA CIDADANIA E SAÚDE;PESQUISA AVANÇADA;CONCEITO;Os tooltips da tabela html só trazem a informação quando o mouse está em cima da interrogação;Aumentar a área de acionamento do tooltip para todo o espaço do cabeçalho;;alto;;alto;
+193;TESTE 4;Teste de usabilidade;GERAL;SEGURANÇA;"Chave indica que não está em https, mas só em http;";Realizar essa alteração para aumentar a segurança do site, gratuito, configurável no servidor;;Médio;Sim;;Alto
+194;TESTE 4;;DADOS ABERTOS;DADOS ABERTOS;;Sugestão = colocar sistemas monitorando os sites para verificar se tem problema (p. ex. ‘uptime’), ao clicar numa pesquisa do CKAN = http://dados.mg.gov.br/dataset?q=;;;;;
+195;TESTE 4;;PÁGINA INICIAL;TIPOGRAFIA;Usuário achou confusa a parte de notícias, letras muito pequenas e sem destaque para a parte clicável ( link);Reorganizar a parte de notícias, melhoras a exibição dos links;;Alto;sim;Alto;Alto
+196;TESTE 4;"Despesa: Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de  locação  para o Estado em 2021. 
+";CONTEÚDO ESTÁTICO;INCLUSÃO DE INFORMAÇÕES;"Procurou a informação na pesquisa básica. Selecionou a opção ""despesa"" e leu o tooltip, leu as descrições de cara me parece vazio, entrou em despesa.  Ficou perdido, tentou selecionar no filtro a opção ""todos"" pra ver se encontrava alguma coisa ( ""Eu sinto que estou no lugar certo, mas eu não tô""). Deposi de um tempo foi em pesquisa avançada";melhorar a descrição de cada módulo para facilitar o entendimento;;baixo;sim;alto;alta
+197;TESTE 4;patrimonio:Localize no Portal da Transparência a lista de bens por tipo de proprietário (Terceiros ) do Estado de Minas Gerais;TUTORIAL;INCLUIR INFORMAÇÕES;Ficou na dúvida se ao baixar o csv ele teria acesso a mais informações ou seria uma lista similar a que aparece na página.;;Comentário relacionado a pesquisa básica;3;SIM;2;ALTA
+198;TESTE 5;Obter a lista de todos os Servidores da Administração Pública Estadual com Cargo efetivo de Auditor Fiscal da Receita e o salário de algum deles em janeiro 2023;PESSOAL;INCLUSÃO DE INFORMAÇÕES;"Não achou intuitivo encontrar essa informação na opção de ""remuneração"".
+";Criar uma outra opção no menu de acesso;;baixo;sim;1;baixa
+199;TESTE 5;"Obter a lista dos servidores expulsos do Serviço Público Estadual.
+";PESSOAL;ORGANIZAR DADOS;Informações sobre legislação de carreiras e tabelas de vencimentos ficam escondidas dentro dessa página;"Criar uma nova opção ""Carreiras""dentro do menu de acesso rápido";;1;sim;1;baixa
+200;TESTE 5;"Despesa: Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de  locação  para o Estado em 2021. 
+";PESQUISA AVANÇADA;FERRAMENTA DE BUSCA;Sentiu falta de um campo livre dentro da pesquisa básica e  avançada onde pudesse digitar algo que estava procurando.;;Como o usuário não sabia que 'locação de veículos' é um item de despesa teve que digitar em todos os campos . Falta de uma melhor explicação;baixo;verificar;alto;alta
+201;TESTE 5;"Obter a lista dos servidores expulsos do Serviço Público Estadual.
+";PESSOAL;INCLUSÃO DE INFORMAÇÕES;Teve dificuldade de encontrar a informação;Inserir no Portal a lista de todos os servidores por carreira. Indepedente da remuneração;Muitos participantes tiveram a mesma dificuldade;Alto;Sim;Alto;Alto
+202;TESTE 5;Teste de usabilidade;PÁGINA INICIAL;LAYOUT;Não gostou do fundo vermelho;;;Alto;Sim;Alto;Alto
+203;TESTE 5;Teste de usabilidade;PÁGINA INICIAL;LAYOUT;Fundo vermelho incomoda;;;Alto;Sim;Alto;Alto
+204;TESTE 6;"Compras e Contratos: Encontre no Portal da Transparência por meio da pesquisa avançada a cópia integral do Contrato 9214029, de 2019, cujo objeto é a prestação, pela Localiza Rent A Car S/A, contratação de prestação de serviço de transporte mediante locação de automóveis para transporte de passageiros
+";PÁGINA INICIAL;FERRAMENTA DE BUSCA;Usuário digitou o número do contrato na ferramenta de busca principal da página inicial e não encontrou nenhum resultado;;Silviana: Melhorar a pesquisa no campo busca da página inicial;;;;
+205;TESTE 6;Obter a lista de todos os Servidores da Administração Pública Estadual com Cargo efetivo de Auditor Fiscal da Receita e o salário de algum deles em janeiro 2021;REMUNERAÇÃO;LAYOUT;Os filtros da busca não são intuitivos e limitam a busca (não é possivel aplicar mais de um filtro ao mesmo tempo).;;Usuário relatou que caso queira selecionar mais de uma carreira não é possível por meio do filtros;alto;sim;3;alta
+206;TESTE 6;"Despesa: Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de  locação  para o Estado em 2021. 
+";PESQUISA AVANÇADA;FERRAMENTA DE BUSCA;Sentiu falta de um campo livre dentro da pesquisa básica e  avançada onde pudesse digitar algo que estava procurando.;Ao colocar alguma informação nos campos a mesma já deveria ser exibida no resultado sem a necessidade de marcar o checkbox.;melhorar o entendimento e a busca;baixo;verificar;1;alta
+207;TESTE 6;"Despesa: Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de  locação  para o Estado em 2021. 
+";PESQUISA AVANÇADA;USABILIDADE;Procurou a informação na pesquisa básica.;Deveria ter essa informação na primeira página para busca;Silviana: Destacar o botão da pesquisa avançada;alto;sim;alto;alta
+208;TESTE 6;Localize no Portal da Transparência a lista de bens por tipo de proprietário (Terceiros ) do Estado de Minas Gerais;PESQUISA AVANÇADA;LENTIDÃO DO SITE;Quando muitas opções são seleicionada a busca fica lenta;;processamento? é comprovado que a demora para carregar páginas faz o usuário desistir;alto;verificar;3;alto
+209;TESTE 6;Convênios:Encontre no Portal o convênio 9210853 firmado em 2019 com o INSTITUTO JURÍDICO PARA EFETIVAÇÃO DA CIDADANIA E SAÚDE;PESQUISA AVANÇADA;TIPOGRAFIA;Não achou intuitivo ter que clicar no número convênio para obter mais informações;;melhorar os filtros;3;sim;3;alto
+210;TESTE 6;Teste de usabilidade;PÁGINA INICIAL;LAYOUT;A cor do portal da transparência é um vermelho muito chamativo que pode cansar as pessoas que navegam por muito tempo no site.;;;Alto;Sim;Alto;Alto
+211;TESTE 6;;DESPESA;INCLUSÃO DE INFORMAÇÕES;;Poderia ter informações sobre as transferências para os caixas escolares.;;;;;
+212;TESTE 6;Obter a lista de todos os Servidores da Administração Pública Estadual com Cargo efetivo de Auditor Fiscal da Receita e o salário de algum deles em janeiro 2022;REMUNERAÇÃO;INCLUSÃO DE INFORMAÇÕES;A consulta no site está dando resultado diferente da consulta na despesa de pessoal;Ajustar pra que as duas pesquisas levem ao mesmo resultado;(provavelmente a diferença é pelos inativos);Alto;sim;3;alta
+213;TESTE 7;Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de  locação  para o Estado em 2021.;PESQUISA BÁSICA;USABILIDADE;"Houve dificuldade em encontrar o local da filtragem de ano.
+O filtro de mÊs e dia específica está disassociado do filtro de ano
+Ao mudar o ano, todos os filtros da busca desaparecem. 
+";Destacar o filtro de ano e deixar ele sem o ano preenchido;O fato ocorre apenas na consulta básica;;;;
+214;TESTE 7;Patrimônio:Localize no Portal da Transparência a lista de bens por tipo de proprietário (Terceiros ) do Estado de Minas Gerais;PESQUISA AVANÇADA;CONCEITO;Usuário não identificou a diferença entre tipo de proprietário e tipo de responsável;Inserir tooltip com explicação dos termos se possível;;2;sim;alto;alta
+215;TESTE 7;Patrimônio:Localize no Portal da Transparência a lista de bens por tipo de proprietário (Terceiros ) do Estado de Minas Gerais;PESQUISA AVANÇADA;CONCEITO;"As informações sobre os conceitos das categorias para o usuário comum poder saber se o patrimônio que está buscando é de propriedade do município, ou se o ente é somente um detentor da posse, ou outras informações sobre a relação jurídica do bem cedido
+";;;2;sim;alto;alta
+216;TESTE 7;;PÁGINA INICIAL;LAYOUT;Alguns usuário acharam o site muito vermelho o que pode deixar cansativo dependendo do tempo de uso. Além de acharem que o vermelho passa uma ideia de algo urgente, alarmante;Pensar na possibilidade de utilizar cores mais claras;;Alto;SIM;alto;BAIXA
+217;TESTE 7;"Despesa:Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de  locação  para o Estado em 2021. 
+";PESQUISA AVANÇADA;USABILIDADE;"Usuário teve dificuldade de encontrar o campo de ""exibir"" informações na busca avançada.";Destacar esse campo ou permitir que o próprio sistema entenda o que precisa ser exibido ( exibir toda informação dos campos que forem preenchidos pelo usuário );Silviana: Melhorar a forma que usuário seleciona os dados. Como default deveria vir todos marcados.;3;sim;1;alto
+218;TESTE 7;Teste de usabilidade;PESQUISA AVANÇADA;LAYOUT;Usuário achou que o campo de busca avançada tem muitas categorias, o que pode deixar o usuário confuso;"Verificar a possibilidade de deixar algumas opções ""ocultas"" caso o usuário precise, ele pode expandir";;Alto;sim;Alto;Alto
+219;TESTE 7;Teste de usabilidade;EDUCAÇÃO;INCLUSÃO DE INFORMAÇÕES;Usuário sentiu falta de informações sobre as transferências para os caixas escolares.;Verificar a possibilidade de inserir informações sobre a educação;;Alto;verificar;alto;ALTA
+220;TESTE 7;;PÁGINA INICIAL;LAYOUT;Usuários não entenderam a forma de organização das informações no menu de acesso rápido;Inserir explicação evidenciando a lógica de organização do menu ( ex: inserir título explicando o significado das linhas vermelha e amarela);melhorar entendimento;baixo;sim;2;alto
+221;TESTE 7;;PÁGINA INICIAL;LAYOUT;Usuário entendeu que os itens que estavam abaixo do primeito item de cada coluna estavam contidos dentro deste assunto ( ex: Planejamento, transparência e cidadania fiscal ele achou que estariam dentro de covid 19 );vide linha 56;;baixo;sim;;alto
+222;TESTE 7;Teste de usabilidade;CANAIS DE ATENDIMENTO;INCLUSÃO DE INFORMAÇÕES;Usuário sentiu falta de um e-mail de contato ou alguma página área de impresa que direcione para tirar dúvidas dos jornalista ou ajudar com alguma informação;Verificar a possibilidade de incluir essa informação;;Baixo;sim;alto;baixo
+223;TESTE 7;Obter a lista de todos os Servidores da Administração Pública Estadual com Cargo efetivo de Auditor Fiscal da Receita e o salário de algum deles em janeiro 2021;GERAL;LAYOUT;Usuário teve dificuldade de visualizar a ferramenta de pesquisa na página, pois achou que o gráfico de pizza da página chama mis atenção que a opção de busca;Verificar a possibilidade aumentar o tamanho da ferramenta de pesquisa;;baixo;sim;2;baixa
+224;TESTE 7;"Despesa:Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de  locação  para o Estado em 2021. 
+";PESQUISA AVANÇADA;USABILIDADE;Usuário clicou em pesquisar antes de selecionar a opção exibir;"Não deixar a opção ""não exibir"" como padrão do formulário para não induzir o usuário ao erro. Quando isso acontece ele precisa realizar uma nova busca";Silviana: Melhorar a forma que usuário seleciona os dados. Como default deveria vir todos marcados.;3;sim;3;alto
+225;TESTE 7;"Compras e Contratos:Encontre no Portal da Transparência por meio da pesquisa avançada a cópia integral do Contrato 9214029, de 2019, cujo objeto é a prestação, pela Localiza Rent A Car S/A, contratação de prestação de serviço de transporte mediante locação de automóveis para transporte de passageiros
+";FORMULÁRIO DE DETALHAMENTO;TIPOGRAFIA;CONCEITO;Inserir um tooltip ou explicação que deixe claro essa informação para o usuário (ex: clique aqui para acessar a cópia integral do contrato).;ALém disso destacar informações principais dentro da cópia de contrato e aumentar o tamanho e sublinhar o link que direciona para o Portal de Compras;3;sim;2;alto
+226;TESTE 7;;FISCALIZANDO COM TCE;MUNICÍPIOS;Usuário clicou em municípios e comentou que o direcionamento direto para outra página parece um erro;Inserir uma página com informações, orientações e o direcionamento para a página externa;facilitar o entendimento;médio;sim;1;alto
+227;TESTE 7;Teste de usabilidade;COVID;INCLUSÃO DE INFORMAÇÕES;Inserir boletim epidemiologico que está no site da saúde e outras secretarias;Verificar possibilidade de inserir essas informações;O Pdt possui um link para o site da SES;baixo;;alto;BAIXA
+228;TESTE 7;Teste de usabilidade;SEGURANÇA;INCLUSÃO DE INFORMAÇÕES;"Inserir informações mais detalhadas sobre segurança pública, numero de homicídio, crime etc
+";Verificar possibilidade de inserir essas informações;Silviana: Podemos pensar em colocar alguns dados no Portal de Dados Abertos;médio;verificar;alto;BAIXA
+229;TESTE 7;Teste de usabilidade;COMPRAS E CONTRATOS;USABILIDADE;Usuário relatou que o safari não é compatível com o POrtal de compras;;;baixo;;;
+230;TESTE 7;Teste de usabilidade;GERAL;SEGURANÇA;Fez a observação do https, em algumas situações as vezes faz com ele não acesse a informação;;;;;;
+231;TESTE 7;Convênios:Encontre no Portal a situação e os valores repassados para o convênio 9210853 firmado em 2019 com o  INSTITUTO JURÍDICO PARA EFETIVAÇÃO DA CIDADANIA E SAÚDE para realização da cogestão de 03 Casas de Semiliberdade, a serem implantadas no município de Belo Horizonte - Minas Gerais.;FORMULÁRIO DE DETALHAMENTO;LAYOUT;;Sugeriu destacar alguma informações na página que traz as informações do Convênio;Formulário de detalhamento;Alto;SIM;Alto;BAIXA
+232;TESTE 8;Teste de usabilidade;EDUCAÇÃO;INCLUSÃO DE INFORMAÇÕES;"Usuário sente falta de um link que direcione para assutos da educação  
+";Verificar a possibilidade de criar setores e consolidas assuntos por temáticas e perfis diferentes ( ex: cidadão, município, empresas ou educação, saúde, segurança);Teste realizado pelo celular  - Sugestão dada pela usuária;médio;verificar;alto;
+233;TESTE 8;Teste de usabilidade;PÁGINA INICIAL;LAYOUT;Usuária detestou o excesso de cor vermelha na página inicial - Segundo a usuária dá a impressão de sangue (algo ruim);;;Alto;sim;Alto;
+234;TESTE 8;Teste de usabilidade;PÁGINA INICIAL;LAYOUT;Usuária achou confusa a área de notícias / comunicados;Organizar melhor as notícias  e inserir título organizando casa assunto da página inicial;;médio;sim;alto;
+235;TESTE 8;Teste de usabilidade;PÁGINA INICIAL;LAYOUT;Usuária sentiu falta de título nos vídeos;Inserir título nos vídeos da página inicial explicando do que se trata ( ex: tutorial de como navegar pelo site )  - verificar se tem um local melhor para inserção dos vídeos no site;Sugestão usuária;baixo;sim;alto;
+236;TESTE 8;Teste de usabilidade;PÁGINA INICIAL;FERRAMENTA DE BUSCA;Usuária digitou SEE na barra de pesquisa da página inicial e não encontrou nenhum informação satisfatória;Verificar o indexador;;;;;
+237;TESTE 8;"Obter a lista de todos os Servidores da Administração Pública Estadual com Cargo efetivo de Auditor Fiscal da Receita e o salário de algum deles em janeiro 2021
+";REMUNERAÇÃO;FILTROS;"O filtro ""consulta""não é a primeira opção da pesquisa";Sugestão do usuário:Colocar  a situação depois do tipo de cargo, porque as pessoas procuram primeiro se o cargo é efetivo ou contrato;;;;;
+235;TESTE 8;Despesa :Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de  locação  para o Estado em 2021.;PESQUISA AVANÇADA;USABILIDADE;"Usuário não identificou que era necessário preencher o campo ""exibir favorecido"" no formulário";O sistema poderia deixar essa opção como padrão, dessa forma a pesquisa seria exibida mesmo que o usuário não marcasse a opção;;;;;
+236;TESTE 8;Despesa :Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de  locação  para o Estado em 2021.;PESQUISA AVANÇADA;INCLUSÃO DE CAMPOS;Usuária sentiu falta de encontrar a vigência do contrato como informação de destaque na tabela html;Incluir data da vigência do contrato na tabela html;Silviana: A vigência do contrato encontra-se na consulta de Compras e Contratos no formulário de detalhamento. Interessante seria acrescentar no Portal essa informação na tabela de resultados.;;sim;alto;
+237;TESTE 8;Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de  locação  para o Estado em 2021.;PESQUISA AVANÇADA;TIPOGRAFIA;Usuária achou muito pequeno o ícone de csv e pdf;"Verificar se é possivel aumentar um pouco o tamanho 
+";"Silviana: Acrescentar  a palavra download antes dos símbolos 
+Aumentar o tamanho da font";baixo;sim;Alto;
+238;TESTE 8;"Convênios : Encontre no Portal a situação e os valores repassados para o convênio 9210853 firmado em 2019 com o  INSTITUTO JURÍDICO PARA EFETIVAÇÃO DA CIDADANIA E SAÚDE para realização da cogestão de 03 Casas de Semiliberdade, a serem implantadas no município de Belo Horizonte - Minas Gerais.
+";FORMULÁRIO DE DETALHAMENTO;INCLUSÃO DE INFORMAÇÕES;Na tabela html não tem o link para acesso ao IOF;"Inserir o link para o diário ver a publicação do convênio
+";Silviana: Não localizei esses dados do SIGCON Transacional;;não;;
+239;TESTE 8;"Encontre no Portal a situação e os valores repassados para o convênio 9210853 firmado em 2019 com o  INSTITUTO JURÍDICO PARA EFETIVAÇÃO DA CIDADANIA E SAÚDE para realização da cogestão de 03 Casas de Semiliberdade, a serem implantadas no município de Belo Horizonte - Minas Gerais.
+";PESQUISA AVANÇADA;NAVEGABILIDADE;No celular os botões de pesquisa, pesquisa avançada ficaram amontoados;Verificar possibilidade de alteração do acesso à pesquisa avançada;Silviana: Pode ter ocorrido apenas no momento do teste do usuário. Realizei testes posteriores e não identifiquei o problema;não se aplica;não se aplica;não se aplica;não se aplica
+240;TESTE 8;Obter a lista dos servidores expulsos do Serviço Público Estadual.;CEAPE;INCLUSÃO DE INFORMAÇÕES;Usuária tinha expectativa de encontrar essa informação dentro de algum link do acesso rápido.;Criar outra opção dentro do menu de acesso rápido;;;;;
+241;TESTE 8;;VOO DO GOVERNADOR;BENCHMARKING;"Usuária não entendeu porque os voos do governador ficam dentro de pessoal,
+";Acredita que faria mais sentido estar dentro de viagens ( viagens - voos e o do governador estar no início da listagem);;baixo;sim;baixo;
+242;TESTE 8;Teste de usabilidade;CANAIS DE ATENDIMENTO;TIPOGRAFIA;Usuária criticou o tamanho da letra e o local onde está disponibilizado telefone e canal fale conosco no rodapé;Dar mais destaque para essas informações no menu superior;;baixo;sim;alto;
+243;TESTE 8;Teste de usabilidade;PÁGINA INICIAL;TIPOGRAFIA;Ao acessar a página inicial pelo celular omenu superior não é exibido, a usuária consegue acessar as opções pelo rodapé;Altera o formato do menu superior;;baixo;sim;alto;
+244;TESTE 8;;GERAL;FILTROS;"Usuária achou que precisou fornecer muitas informações para o site retornar uma resposta. 
+";Gostaria que os campos de busca dessem resposta aproximada para já deduzir algum possível caminho;;;;;
+245;TESTE 9;Obter a lista de todos os Servidores da Administração Pública Estadual com Cargo efetivo de Auditor Fiscal da Receita e o salário de algum deles em janeiro 2021;REMUNERAÇÃO;TUTORIAL;Usuário teve dificuldade de indentificar se ao inserir uma data no campo de pesquisa a planilha seria referente a essa mesma data;;;;;;
+246;TESTE 9;Encontre no Portal da Transparência por meio da pesquisa avançada a cópia integral do Contrato 9214029, de 2019, cujo objeto é a prestação, pela Localiza Rent A Car S/A, contratação de prestação de serviço de transporte mediante locação de automóveis para transporte de passageiros;COMPRAS E CONTRATOS;TIPOGRAFIA;"Não conseguiu encontrar a copia do contrato não encontrou o hiperlink com facilidade 
+";Aumentar tamanho do link e destacar informações de principais;Achou que encontraria o contrato dentro de despesas pq o contrato é uma execução de despesa.;;;;
+247;TESTE 9;;PESQUISA AVANÇADA;FILTROS;Não achou intuitiva a finalidade dos campos da busca avançada;Melhorar a pesquisa avançada para que fique mais intuitiva a utilidade de cada campo;;;;;
+248;TESTE 9;"Patrimonio: Localize no Portal da Transparência a lista de bens por tipo de proprietário (Terceiros ) do Estado de Minas Gerais
+";PESQUISA AVANÇADA;USABILIDADE;Parece não ter entendido que poderia preencher os campos da pesquisa avançada. Achou que o fato de mandar exibir já era o filtro.;Necesário melhoria para ser mais intuitivo;Não fica claro para o usuário o que acontece de fato quando seleciona o botão exibir na pesquisa avançada.;;;;
+249;TESTE 9;Encontre no Portal a situação e os valores repassados para o convênio 9210853 firmado em 2019 com o  INSTITUTO JURÍDICO PARA EFETIVAÇÃO DA CIDADANIA E SAÚDE para realização da cogestão de 03 Casas de Semiliberdade, a serem implantadas no município de Belo Horizonte - Minas Gerais.;CONVÊNIO;TUTORIAL;Dificuldade em identificar convênio de saída e entrada para realizar pesquisa.;Averiguar possibilidade de pesquisar convênios (saída e entrada) numa mesma pesquisa, quando o usuário não souber o tipo do convênio a ser pesquisado.;;;;;
+250;TESTE 9;Obter a lista dos servidores expulsos do Serviço Público Estadual.;CEAPE;INCLUSÃO DE INFORMAÇÕES;Não é possível encontrar o conteúdo dentro de nenhuma das opções do menu de acesso rápido;Sugeriu inserir o conteúdo nos ícones principais da tela, no menu de acesso rápido;;;;;
+251;TESTE 10;Teste de usabilidade;PÁGINA INICIAL;LAYOUT;Usuário não gostou da organização das informações abaixo do menu de acesso rápido;Alterar o layout do conteúdo abaixo (notícias, por exemplo) para a parte lateral. A usuária considera que o acesso a essas informações fica um pouco prejudica por estar mais abaixo;"Usuária já havia acessado o Portal várias vezes e nunca observou que existiam informações abaixo do menu de acesso rápido.
+";baixo;sim;alto;
+252;TESTE 10;Obter a lista de todos os Servidores da Administração Pública Estadual com Cargo efetivo de Auditor Fiscal da Receita e o salário de algum deles em janeiro 2021;PESSOAL;INCLUSÃO DE INFORMAÇÕES;Usuária tentou fazer a pesquisa pelo órgão e tentou clicar em cima do órgão no mapa e na tabela html acreditando que apareceria a despesa com pessoal por órgão;Acrescentar um link na consulta despesa com pessoal no órgão para ter acesso a essa informação.;Usuária teve dificuldade de identificar que a consulta de remueração não teria a opção de filtrar por carreira. Achou que só possuia nome e remuneração.;;;;
+253;TESTE 10;Despesa :Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de  locação  para o Estado em 2021.;PESQUISA AVANÇADA;USABILIDADE;"Usuária teve dificuldade de encontrar as informações porque não encontrou a opção ""item de despesa"" na busca simples.";"Verificar a possibilidade de abrir mais opções de campos na busca simples ou inserir item de despesa no campo de consulta 
+";Silviana: Dar mais destaque ao campo pesquisa avançada;;;;
+254;TESTE 10;Despesa :Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de  locação  para o Estado em 2021.;PESQUISA AVANÇADA;USABILIDADE;"Usuária não identificou que era necessário clicar na caixa de seleção de ""exibir favorecido""";Deixar a opção exibir como padrão do formulário;;;;;
+255;TESTE 10;Compras e Contratos :Encontre no Portal da Transparência por meio da pesquisa avançada a cópia integral do Contrato 9214029, de 2019, cujo objeto é a prestação, pela Localiza Rent A Car S/A, contratação de prestação de serviço de transporte mediante locação de automóveis para transporte de passageiros;PESQUISA AVANÇADA;USABILIDADE;Usuária acha difícil precisar clicar em busca avançada sempre para realizar a pesquisa;"Trazer a pequisa avançada para a página principal 
+";Silviana: Dar mais destaque ao campo pesquisa avançada;;;;
+256;TESTE 10;"Convênios : Encontre no Portal a situação e os valores repassados para o convênio 9210853 firmado em 2019 com o  INSTITUTO JURÍDICO PARA EFETIVAÇÃO DA CIDADANIA E SAÚDE para realização da cogestão de 03 Casas de Semiliberdade, a serem implantadas no município de Belo Horizonte - Minas Gerais.
+";FORMULÁRIO DE DETALHAMENTO;TIPOGRAFIA;"Teve dificuldade de encontrar informação do valor repassado. Achou a informação muito misturada, sem destaque das informações principais 
+";Destacar informações principais;;Médio;sim;alto;
+257;TESTE 10;Obter a lista dos servidores expulsos do Serviço Público Estadual.;PESSOAL;INCLUSÃO DE INFORMAÇÕES;Usuária não identificou onde acessar a informação, achou que estaria no menu de acesso rápido;Inserir essas informações dentro do menu de acesso rápido;;;;;
+258;TESTE 10;Perguntas frequentes: O que você achou desta página? Caso precisasse encontrar alguma dúvida teria facilidade de encontrar? Gostaria de sugerir alguma melhoria para a organização das informações nesta página?;MANUAL DO USUÁRIO;LAYOUT;Usuária achou que manual poderia estar mais visível;Inserir o manual em um local de maior destaque;;;;;
+259;TESTE 11;Obter a lista de todos os Servidores da Administração Pública Estadual com Cargo efetivo de Auditor Fiscal da Receita e o salário de algum deles em janeiro 2021;PESSOAL;INCLUSÃO DE INFORMAÇÕES;Achou que conseguirira extratificar a despesa de pessoal por órgão. Para o usuário as informações deveriam está em um outro local ao invés da cosulta de remuneração;Verificar se é possível criar uma opção de carreiras para esse tipo de pesquisa que não é nominal;Vários usuários tiveram o mesmo raciocínio;;;;
+260;TESTE 11;"Encontre a partir do item de despesa ‘locação de veículos’ os fornecedores que prestam serviços de  locação  para o Estado em 2021. 
+";PESQUISA AVANÇADA;LAYOUT;Usuário teve dificuldade de indetificar o botão pesquisa avançada;Enfatizar a pesquisa avançada para os usuários ou com outra cor ou ao passar o mouse o usuário ter acesso a todos os campos da pesquisa avançada;Não conseguiria encontrar a informação se não tivesse tido a dica da pesquisa avançada;;;;
+261;TESTE 11;"Encontre no Portal da Transparência por meio da pesquisa avançada a cópia integral do Contrato 9214029, de 2019, cujo objeto é a prestação, pela Localiza Rent A Car S/A, contratação de prestação de serviço de transporte mediante locação de automóveis para transporte de passageiros
+";COMPRAS E CONTRATOS;FILTROS;Sentiu falta do número do contrato;Inserir o número do contrato na planilha html;Quando consulta em outros lugares o ano vem logo após o número do contrato, que faz sentido para ele pela vigência;;;;
+262;TESTE 11;"Encontre no Portal da Transparência por meio da pesquisa avançada a cópia integral do Contrato 9214029, de 2019, cujo objeto é a prestação, pela Localiza Rent A Car S/A, contratação de prestação de serviço de transporte mediante locação de automóveis para transporte de passageiros
+";PESQUISA AVANÇADA;LAYOUT;Teve dificuldade de encontrar o ano. Ficou em dúvida se o ano era da base de dados ou da consulta;Deixar essa informação disponível na página;;;;;
+263;TESTE 11;Obter a lista dos servidores expulsos do Serviço Público Estadual.;CEAPE;INCLUSÃO DE INFORMAÇÕES;Usuária acha que a informação poderia estar acima nos outros ítens do menu por ser informação importante.;Criar nova opção no menu ou inserir em alguma opção do menu de acesso rápido;;;;;
+264;TESTE 11;;PESQUISA AVANÇADA;LAYOUT;Dificuldade de identificar que existe a funcionalidade busca avançada;"Sugeriu inserir um texto explicativo quando passar o mouse sobre o botão pesquisa avançada.
+";Usuários que acessam pela primeira vez não achariam a pesquisa avançada e não encontrariam as informações. Como tem uma informação que induz á pesquisa simples antes, a pesquisa avançada fica escondida.;;;;
+265;TESTE 11;;GERAL;TUTORIAL;Alguns usuários podem ter dificuldade de entender a lógica de funcionamento do Portal;Se tivesse uma capacitação rápida sobre o portal, ou mesmo um vídeo seria importante para ajudar a acessar melhor.;;;;;
+266;TESTE 12;;PÁGINA INICIAL;LAYOUT;Usuário achou que as informações dorodapé estava repetitivas, já que são as mesmas opções que aparecem no menu de acesso rápido e no menu superior;Verificar se é necessário repetir as informações;;;;;
+267;TESTE 12;;PÁGINA INICIAL;ATUALIZAR DADOS;Usuário identificou que data de algumas notícias eram do ano passado.;Deixar notíciais mais atuais na página inicil;"Ao ver a data das notícias ressaltou a data antiga das notícias veículadas. Falta de notícias ""são 3 e uma delas tem mais de 1 ano""";;;;
+268;TESTE 12;"Obter a lista de todos os Servidores da Administração Pública Estadual com Cargo efetivo de Auditor Fiscal da Receita e o salário de algum deles em janeiro 2021
+";REMUNERAÇÃO;PARTIÇÃO DO ANO;Usuário só consegue realizar a pesquisa de um ano de cada vez;Permitir a pesquisa por mais de um ano o cargo para comparação. Pesquisar sem restringir o ano;Incrementar a pesquisa de maneira a permitir mais de um critério de busca, ou inserir pesquisa avançada para permitir essa busca.;;;;
+269;TESTE 12;Imagine que você vai assumir o departamento de RH da Secretaria de Governo, identifique quais servidores têm cargo em comissão nesse órgão ( tarefa concluída quando baixa a planilha);REMUNERAÇÃO;INCLUIR CAMPOS;Usuário achou ruim essa pesquisa somente ser realizada pelo dowload da planilha;Verificar se é possível aparecer alguma resposta na tela principal ou inserir pesquisa avançada;;;;;
+270;TESTE 12;Identifique quando o Governo gastou com os programas Administração de Palácios no ano de 2018 e 2019.;PESQUISA AVANÇADA;PARTIÇÃO DO ANO;Usuário não consegue realizar pesquisa de mais de um ano ao mesmo tempo;Sugeriu possibilidade de acessar mais de um ano na mesma busca.;Ressaltou que foi um retrabalho ter que fazer a mesma pesquisa 2 vezes;;;;
+271;TESTE 12;"Encontre no Portal da Transparência por meio da pesquisa avançada a cópia integral do Contrato 9214029, de 2019, cujo objeto é a prestação, pela Localiza Rent A Car S/A, contratação de prestação de serviço de transporte mediante locação de automóveis para transporte de passageiros
+";PESQUISA AVANÇADA;LAYOUT;Não fica evidente qual a forma de preenchimento do campo;Destacar com placeholder a forma de preenchimento aceita pelos campos.;;;;;
+272;TESTE 12;"Encontre no Portal da Transparência por meio da pesquisa avançada a cópia integral do Contrato 9214029, de 2019, cujo objeto é a prestação, pela Localiza Rent A Car S/A, contratação de prestação de serviço de transporte mediante locação de automóveis para transporte de passageiros
+";PESQUISA AVANÇADA;LAYOUT;Usuário acha que a pesquisa avançada poderia estar na primeira página;"Sugeriu trazer o conteúdo da pesquisa avançada para a página primária da pesquisa para facilitar o acesso.
+Pesquisa avançada ter possibilidade de consultar mais de um ano.";Forma de inserir as informações no formulário de pesquisa avançada é textual, quando no orçamento é numérico;;;;
+273;TESTE 12;"Localize no Portal da Transparência a lista de bens por tipo de proprietário (Terceiros ) do Estado de Minas Gerais
+";PESQUISA AVANÇADA;LAYOUT;Usuário achou estranho o formulário ter campos permanentes relacionados à veículos;Colocar uma condição para perguntar as informações sobre veículos apenas se a pesquisa for a respeito de veículos;;;;;
+274;TESTE 12;"Localize no Portal da Transparência a lista de bens por tipo de proprietário (Terceiros ) do Estado de Minas Gerais
+";PESQUISA AVANÇADA;PARTIÇÃO DO ANO;Usuário questionou se é necessário inserir o ano para realizar essa pesquisa;Se os números dos convênios não repetirem, poderia fazer a pesquisa sem necessariamente informar o ano, pois não necessariamente o usuário sabe dessa informação.;;;;;
+275;TESTE 12;;PERGUNTAS FREQUENTES;ATUALIZAR DADOS;Usuário não gostou do formato do dúvidas frequentes, porque tem pouco a ver com o que geralmente os usuários esão buscando no site;Rever as opções de perguntas e se estão alinhadas com as perguntas que recebem no fale conosco;Eu não gosto muito dessa sugestão de perguntas frequentes, até porque tem pouco a ver com o que normalmente a gente busca. Talvez se eu quisesse um suporte eu não procuraria aqui, procuraria em um suporte. E outra coisa, essas perguntas são permanentemente revistas?;;;;
+276;TESTE 12;Obter a lista dos servidores expulsos do Serviço Público Estadual.;CEAPE;LAYOUT;Não achou intuitivo o local onde a informação está disponível;Sugeriu inserir um ícone para informações de carreira.;Achou que a informação está escondida;;;;
+277;TESTE 12;;GERAL;ACESSABILIDADE;Ferramentas de acessibilidade;"Sugeriu barra de acessibilidade com possibilidade de recursos ""open dislexy"" que facilita a identificação dos caracteres por parte de pessoas com dislexia";Não identificou se o site é amigável para pessoas que utilizam leitor de tela para melhoria de acessibilidade, ou barra de melhoria de fontes.;;;;
+278;TESTE 12;"Localize no Portal da Transparência a lista de bens por tipo de proprietário (Terceiros ) do Estado de Minas Gerais
+";PESQUISA AVANÇADA;LAYOUT;"Ficou confuso sobre o que deveria mandar exibir no rodapé da busca. 
+";"Verificar a possibilidade de inserir explicação ou deixar a opção ""exibir"" como padrão do sistema";;;;;
+279;TESTE 12;"Localize no Portal da Transparência a lista de bens por tipo de proprietário (Terceiros ) do Estado de Minas Gerais
+";PESQUISA BÁSICA;LAYOUT;Não entendeu que os campos tinham lista suspensa;Inserir setinha nos campos evidenciando que se trata de lista suspensa;;;;;
+280;LAB.MG;Fale Conosco;MUNICÍPIOS / OUTROS ESTADOS;LAYOUT;Falta de informações sobre como acessar informações de transparência dos municípios;Como sugestão coloque todos os municípios para que haja um cadastro de acesso ás informações neste âmbito;;não se aplica;;;
+281;LAB.MG;Fale Conosco;PESQUISA BÁSICA;LAYOUT;;Gostaria de sugerir que os gráficos em pizza fossem alterados para outro modelo. Vocês podem utilizar gráficos de barra, ou tree maps também. Na literatura sobre visualização de dados, os gráficos de pizza são muito criticados, por diferentes motivos. Dependendo da posição de um setor, por exemplo, ou da cor utilizada para representar, o leitor tem uma visão distorcida dos dados. Além disso, é muito difícil a comparação entre um setor outro;;;;;
+282;LAB.MG;Fale Conosco;REMUNERAÇÃO;INCLUIR INFORMAÇÕES;Faltam informações de proventos e aposentadorias de aposentados e pensionistas;Os proventos para pensionistas aposentados do estado não aparecerem no portal da transparência. deixa como sugestão para que sejam inseridos;;;;;
+283;LAB.MG;Fale Conosco;GERAL;LAYOUT;Dificuldade de comunicação com fornecedores;Gostaria de sugerir a visita de outros portais para sugestão de aprimoramento desse portal ao seus fornecedores;;;;;
+284;ENTREVISTA 2;ENTREVISTA;PESQUISA AVANÇADA;INCLUSÃO DE CAMPOS;;Criar tabelas para consulta das unidades orçamentárias para consulta dos programas. Incluir consulta por código das dotações orçamentárias.;Silviana: Incluir a busca por códigos;médio;sim;3;baixa
+285;ENTREVISTA 2;ENTREVISTA;PESQUISA AVANÇADA;INCLUSÃO DE CAMPOS;;O ideal, pelo menos para a finalidade que eu uso, seria acrescentar mais um campo em pago em restos apagar, atrelando ao ano de competência.;Silviana: Incluir o ano na tabela de resultados;médio;sim;3;baixa
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
