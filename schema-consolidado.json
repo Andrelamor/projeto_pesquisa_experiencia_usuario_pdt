@@ -26,7 +26,10 @@
             "type": "string",
             "format": "default",
             "title": "Origem",
-            "description": "Fonte das informações. Exemplo: Análise Exploratória, Fale Conosco, Formulário, Teste de Usabilidade, etc"
+            "description": "Fonte das informações. Exemplo: Análise Exploratória, Fale Conosco, Formulário, Teste de Usabilidade, etc",
+              "constraints": {
+            "required": false
+            }
           },
           {
             "name": "CONSULTA_PORTAL",
@@ -43,28 +46,40 @@
             "title": "Categoria",
             "type": "string",
             "format": "default",
-            "description": "Tipo e Sugestão. Exemplo: Acessibilidade, Conceito, Layout, Inclusão de Informações." 
+            "description": "Tipo e Sugestão. Exemplo: Acessibilidade, Conceito, Layout, Inclusão de Informações.",
+              "constraints": {
+            "required": false
+            }
           },
           {
             "name": "PONTOS_ATENCAO",
             "title": "Pontos de Atenção",
             "type": "string",
             "format": "default",
-            "description": "Apontamentos que expressam críticas ou dificuldades na experiência do usuário"
+            "description": "Apontamentos que expressam críticas ou dificuldades na experiência do usuário",
+              "constraints": {
+            "required": false
+            }
           },
           {
             "name": "SUGESTOES_BOAS_PRATICAS",
             "title": "Sugestões e Boas Práticas",
             "type": "string",
             "format": "default",
-            "description": "Sugestões para melhoria da experiência do usuário na consulta referente."
+            "description": "Sugestões para melhoria da experiência do usuário na consulta referente.",
+              "constraints": {
+            "required": false
+            }
           },
           {
             "name": "OBSERVACOES",
             "title": "Observações",
             "type": "string",
             "format": "default",
-            "description": "Informações e detalhamentos complementares para especificar melhor as duas colunas anteriores."            
+            "description": "Informações e detalhamentos complementares para especificar melhor as duas colunas anteriores.",
+              "constraints": {
+            "required": false
+            }
           },
           {
             "name": "IMPACTO_USUARIO",
@@ -73,6 +88,7 @@
             "title": "Impacto no Usuário",
             "description": "Valoração do nível do Impacto no usuário: baixo; médio ou alto",      
             "constraints": {
+              "required": true,
               "enum": [
               "baixo",
               "médio",
@@ -88,6 +104,7 @@
             "title": "Viabilidade",
             "description": "Avaliação sobre a viabilidade da sugestão (sim/não)",      
             "constraints": {
+              "required": true,
               "enum": [
               "sim",
               "não",
@@ -103,6 +120,7 @@
             "title": "Esforço",
             "description": "Avaliação sobre o nível de esforço para implementar a sugestão: baixo; médio ou alto ",      
             "constraints": {
+              "required": true,
               "enum": [
               "baixo",
               "médio",
@@ -118,6 +136,7 @@
             "title": "Prioridade",
             "description": "Avaliação sobre a prioridade de implementação da sugestão: baixa ou alta",      
             "constraints": {
+              "required": true,
               "enum": [
               "baixa",
               "alta",
