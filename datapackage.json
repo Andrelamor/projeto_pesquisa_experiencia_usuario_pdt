@@ -4,103 +4,104 @@
     {
       "name": "declaracao-participacao",
       "path": "anotacoes_roteiro_teste_entrevista/declaracao-participacao.pptx",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "entrevista-teste-usabilidade",
       "path": "anotacoes_roteiro_teste_entrevista/entrevista-teste-usabilidade.docx",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "registros-entrevistas",
       "path": "anotacoes_roteiro_teste_entrevista/registros-entrevistas.xlsx",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "registros-testes",
       "path": "anotacoes_roteiro_teste_entrevista/registros-testes.xlsx",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "roteiro-entrevistas",
       "path": "anotacoes_roteiro_teste_entrevista/roteiro-entrevistas.docx",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "roteiro-testes",
       "path": "anotacoes_roteiro_teste_entrevista/roteiro-testes.docx",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "consolidado_sugestoes_melhoria_pdt",
       "path": "consolidado/consolidado_sugestoes_melhoria_pdt.csv",
       "profile": "tabular-data-resource",
       "schema": "schema-consolidado.json",
+      "dialect":"dialect.json"
     },
     {
       "name": "formulario_portal_transparencia",
       "path":"formulario_pesquisa_usuarios/formulario_portal_transparencia.xlsx",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "link-formulario",
       "path":"formulario_pesquisa_usuarios/link-formulario.txt",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "painel_formulario",
       "path":"formulario_pesquisa_usuarios/painel_formulario.html",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "painel_formulario",
       "path":"formulario_pesquisa_usuarios/painel_formulario.rmd",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "plano-trabalho-matriz-responsabilidades",
       "path":"plano_trabalho/plano-trabalho-matriz-responsabilidades.xlsx",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "planejamento-teste-usabilidade",
       "path":"plano_trabalho/planejamento-teste-usabilidade.xlsx",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "prototipo-telas-observacoes",
       "path":"relatorio_final/prototipo-telas-observacoes.pdf",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "consolidado-20210819",
       "path":"relatorio_final/consolidado-20210819.pptx",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "analise-formulario-entrevista-20210504",
       "path":"relatorio_final/analise-formulario-entrevista-20210504.pptx",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "diagnostico-boas-praticas-20210317",
       "path":"relatorio_final/diagnostico-boas-praticas-20210317.pptx",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "diagnostico-boas-praticas-consolidado-202100526",
       "path":"relatorio_final/diagnostico-boas-praticas-consolidado-202100526.pptx",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "relatorio-final-20210721",
       "path":"relatorio_final/relatorio-final-20210721.pptx",
-      "profile": "data-resource",
+      "profile": "data-resource"
     },
     {
       "name": "apresentacao_pdt_livro_ux",
-      "path":"/apresentacao_pdt_livro_ux",
-      "profile": "data-resource",
+      "path":"relatorio_final/apresentacao_pdt_livro_ux",
+      "profile": "data-resource"
     }
   ],
   "name": "projeto_pesquisa_experiencia_usuario_pdt",
