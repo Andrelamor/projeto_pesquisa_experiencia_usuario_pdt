@@ -1,6 +1,6 @@
-"fields": [
+        "fields": [
           {
-            "name": "id",
+            "name": "ID",
             "type": "integer",
             "format": "default",
             "title": "ID",
@@ -12,7 +12,7 @@
             }
           },
           {
-            "name": "autoria",
+            "name": "AUTORIA",
             "type": "string",
             "format": "default",
             "title": "Autoria",
@@ -22,14 +22,14 @@
             }
           },
           {
-            "name": "origem",
+            "name": "ORIGEM",
             "type": "string",
             "format": "default",
             "title": "Origem",
             "description": "Fonte das informações. Exemplo: Análise Exploratória, Fale Conosco, Formulário, Teste de Usabilidade, etc"
           },
           {
-            "name": "consulta_portal",
+            "name": "CONSULTA_PORTAL",
             "type": "string",
             "format": "default",
             "title": "Consulta Portal de Transparência",
@@ -39,35 +39,35 @@
             }
           },
           {
-            "name": "categoria",
+            "name": "CATEGORIA",
             "title": "Categoria",
             "type": "string",
             "format": "default",
             "description": "Tipo e Sugestão. Exemplo: Acessibilidade, Conceito, Layout, Inclusão de Informações." 
           },
           {
-            "name": "pontos_atencao",
+            "name": "PONTOS_ATENCAO",
             "title": "Pontos de Atenção",
             "type": "string",
             "format": "default",
             "description": "Apontamentos que expressam críticas ou dificuldades na experiência do usuário"
           },
           {
-            "name": "sugestoes_boas_praticas",
+            "name": "SUGESTOES_BOAS_PRATICAS",
             "title": "Sugestões e Boas Práticas",
             "type": "string",
             "format": "default",
             "description": "Sugestões para melhoria da experiência do usuário na consulta referente."
           },
           {
-            "name": "observacoes",
+            "name": "OBSERVACOES",
             "title": "Observações",
             "type": "string",
             "format": "default",
             "description": "Informações e detalhamentos complementares para especificar melhor as duas colunas anteriores."            
           },
           {
-            "name": "impacto_usuario",
+            "name": "IMPACTO_USUARIO",
             "type": "string",
             "format": "default",
             "title": "Impacto no Usuário",
@@ -82,7 +82,7 @@
             }
           },
           {
-            "name": "viabilidade",
+            "name": "VIABILIDADE",
             "type": "string",
             "format": "default",
             "title": "Viabilidade",
@@ -97,7 +97,7 @@
             }
           },
           {
-            "name": "esforco",
+            "name": "ESFORCO",
             "type": "string",
             "format": "default",
             "title": "Esforço",
@@ -112,7 +112,7 @@
             }
           },
           {
-            "name": "prioridade",
+            "name": "PRIORIDADE",
             "type": "string",
             "format": "default",
             "title": "Prioridade",
@@ -124,6 +124,5 @@
               "não se aplica"
               ]
             }
-          },
+          }
         ]
-      }
