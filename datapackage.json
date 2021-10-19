@@ -13,8 +13,7 @@
     },
     {
       "name": "registros-entrevistas",
-      "path": "anotacoes_roteiro_teste_entrevista/registros-entrevistas.xlsx",
-      "profile": "data-resource"
+      "path": "anotacoes_roteiro_teste_entrevista/registros-entrevistas.xlsx"
     },
     {
       "name": "registros-testes",
