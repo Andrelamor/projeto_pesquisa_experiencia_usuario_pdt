@@ -35,7 +35,7 @@
       "name": "consolidado_sugestoes_melhoria_pdt",
       "path": "consolidado/consolidado_sugestoes_melhoria_pdt.csv",
       "profile": "tabular-data-resource",
-      "schema": "schema-consolidado.json",
+      "schema": "schema.json",
       "dialect":"dialect.json"
     },
     {
