@@ -13,12 +13,17 @@
     },
     {
       "name": "registros-entrevistas",
-      "path": "anotacoes_roteiro_teste_entrevista/registros-entrevistas.xlsx"
+      "path": "anotacoes_roteiro_teste_entrevista/registros-entrevistas.xlsx",
+      "profile": "data-resource",
+      "encoding": "windows-1252",
+      "format": "xlsx"
     },
     {
       "name": "registros-testes",
       "path": "anotacoes_roteiro_teste_entrevista/registros-testes.xlsx",
-      "profile": "data-resource"
+      "profile": "data-resource",
+      "encoding": "windows-1252",
+      "format": "xlsx"
     },
     {
       "name": "roteiro-entrevistas",
@@ -60,12 +65,16 @@
     {
       "name": "plano-trabalho-matriz-responsabilidades",
       "path":"plano_trabalho/plano-trabalho-matriz-responsabilidades.xlsx",
-      "profile": "data-resource"
+      "profile": "data-resource",
+      "encoding": "windows-1252",
+      "format": "xlsx"
     },
     {
       "name": "planejamento-teste-usabilidade",
       "path":"plano_trabalho/planejamento-teste-usabilidade.xlsx",
-      "profile": "data-resource"
+      "profile": "data-resource",
+      "encoding": "windows-1252",
+      "format": "xlsx"
     },
     {
       "name": "prototipo-telas-observacoes",
