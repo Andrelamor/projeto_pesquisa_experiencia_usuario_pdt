@@ -45,7 +45,9 @@
     {
       "name": "formulario_portal_transparencia",
       "path":"formulario_pesquisa_usuarios/formulario_portal_transparencia.xlsx",
-      "profile": "data-resource"
+      "profile": "data-resource",
+      "encoding": "windows-1252",
+      "format": "xlsx"
     },
     {
       "name": "link-formulario",
